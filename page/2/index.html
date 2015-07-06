@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description">
+  
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-2012-11-29-supermemo" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/24/2012-11-29-supermemo/" class="article-date">
+  <time datetime="2015-06-24T00:45:15.426Z" itemprop="datePublished">2015-06-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/supermemo/">supermemo</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/06/24/2012-11-29-supermemo/">supermemo 学习记录</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="SuperMemo词库加工">SuperMemo词库加工</h2><h3 id="图片修改工具：inpaint">图片修改工具：inpaint</h3><p>可以非常快速涂抹图片中的部分内容，并且保证在修改后保持与周边图像的协调，非常方便快捷！</p>
+<h3 id="单词画廊">单词画廊</h3><ul>
+<li>下载单词画廊破解版，并安装到iphone</li>
+<li>copy dict.db文件，该文件为单词画廊图片、声音文件的存放地，格式为sqlite 3</li>
+<li>运行:?: python脚本可直接将图片文件导出，每张图片单独存为文件</li>
+<li>其图片由于叠加了单词文本和解释，根据音图建立MIF原理，需要将图片上的位置去除掉</li>
+<li>使用inpaint软件可以对其进行修改，inpaint较弱智，不方便批量操作，可使用autoit脚本来加速操作进程</li>
+</ul>
+<h3 id="extreme_english">extreme english</h3><ul>
+<li>下载EE学习包，其格式为supermemo UX格式</li>
+<li>运行:?: python脚本可对其进行解包，解包后的文件包括单词列表xml文件、mp3语音和png图片，需要对其进行对应关联</li>
+<li>png文件在supermemo15中并不能支持，需要将其转换为jpg格式</li>
+</ul>
+<h3 id="语音库">语音库</h3><ul>
+<li>朗文8万语音库音质不错，原始文件格式为wav</li>
+<li>可使用lame转换为mp3格式，采用批处理命令处理，为加快处理速度，可将批处理文件分成多个同时运行</li>
+</ul>
+<h3 id="supermemo15_Q&amp;A文件">supermemo15 Q&amp;A文件</h3><ul>
+<li>经过测试，舍得的转换精灵不太好用，还是直接编辑Q&amp;A文本比较直接</li>
+<li>不支持png图像文件格式，:!:浪费了很多时间</li>
+<li>文件编码为UTF-8，回车换行为<strong>windows</strong>方式</li>
+</ul>
+<h2 id="supermemo_优化">supermemo 优化</h2><h3 id="快捷键修改">快捷键修改</h3><pre><code>具有以下功能：
+1、用z、x、c、v、b、<span class="keyword">n</span>做快捷键，打分后直接进入下一问题，不用按【next repeatition】按钮
+2、在final drill 模式下，使用SHIFT+<span class="keyword">N</span>可以循环浏览需要复习的材料，再按一次SHIFT+<span class="keyword">N</span>停止循环
+使用方法：
+1、需要安装autoit程序
+2、将该脚本放到sm.exe执行文件所在目录
+3、启动时直接运行脚本，会自动启动supermemo
+4、退出时直接关闭supermemo，脚本会自动退出
+不足：
+1、由于使用了全局快捷键，在不退出的情况下使用其他程序时，输入相关快捷键时会有干扰，比如按【z】时，输入的是【5】
+</code></pre><h3 id="supermemmo_绿色版本">supermemmo 绿色版本</h3><pre><code>supermemo 15由于进度问题，在不同机器上使用时会存在进度同步问题，解决办法之一是将其搬到<span class="keyword">U</span>盘上，随身携带，即插即用，具体步骤如下：
+1. 在<span class="keyword">U</span>盘上建立根目录，如SLEMedia
+1. 将supermemo程序目录<span class="keyword">copy</span>到SLEMedia下
+1. Q&amp;A文件对mp3文件的引用路径修改为相对路径，形如<span class="keyword">file</span>:<span class="comment">///../../supermemo/sysytem/1/1/1.htm</span>
+
+<span class="comment">**存在的问题是U盘读写操作较慢，在连续播放时有停顿感，需要优化**</span>
+</code></pre><h2 id="SuperMemo的复习进程">SuperMemo的复习进程</h2><p>近日在舍得英语魔法学苑或VeryCD上提到“复习量”问题的朋友比较多，看来对SuperMemo确实比较迷茫，有感于此，舍得便来讲解一下SuperMemo中的复习安排。</p>
+<p>SuperMemo其实有两个复习进程，用舍得的话讲就是，一个是当天的，另一个是“非当天”的。</p>
+<p>当天的复习进程主要是为了帮助你那些你还吃不准意思的记忆材料，评分在3以下的记忆材料均会进入当天的复习进程。大家可以通过统计窗口的Outstanding一栏中观察一下，这一栏数据的格式是：XX+0+XX el.（X为数字），其中前一个XX是“非当天”的复习进程，后一个XX就是当天的复习进程。</p>
+<p><img src="/blog/images/outsdanding.jpg" alt=""></p>
+<p>SuperMemo并没有死板地套用艾宾浩斯的原理，因为从记忆曲线中讲，一般记住后，“在5分钟后重复一遍，20分钟后再重复一遍，1小时后，12小时后，1天后，2天后，5天后，8天后，14天后就会记得很牢。”但是，对于那些你本来就记得挺牢的记忆材料，你还需要这样子去重复吗？</p>
+<p>其实，在艾宾浩斯后来的记忆的实验中也发现了这个问题，他发现，记住12个无意义音节，平均需要重复16.5次；为了记住36个无意义章节，需重复54次；而记忆六首诗中的480个音节，平均只需要重复8次！这个实验说明了，凡是理解了的知识，就能记得迅速、全面而牢固。不然，愣是死记硬背，那也是费力不讨好的。</p>
+<p>另外，在记忆曲线中，当天的这个“5分钟、20分钟、1小时和12小时”的间隔也并非是绝对的。因此，在SuperMemo的中，对此进行了简化，把当天何时复习的主动权就交回给学习者手上，这可以让我们有更多的精力来对待那些难以搞定的记忆材料，确实是一大创举。</p>
+<p>再来讲讲“非当天”的复习进程，这才是记忆的重头戏，因为这个复习进程安排的好坏，直接决定了记忆的效率和效果。SuperMemo会根据你的评分——即你对记忆材料的掌握程度来给它们安排合理的复习时间。大家可以通过SuperMemo的工作量窗口来观察它的复习安排（你可以按下快捷键Ctrl+W来调出此窗口），下图是舍得学习的某个词库：</p>
+<p><img src="/blog/images/workload.jpg" alt=""></p>
+<p>从上图可以看到，虽然今天才4月2日，但是复习的进程却将4、5月份都排满了（事实上SuperMemo给舍得排的计划一直到2011年2月27日）。这个图其实很简单，大家只要看每月的第三栏（即Reps）中即可，前一个数字就是你要复习的数量，后一个数字是你要复习的主题数量（SuperMemo里材料分为Element和Topic，不过后者用得较少）。双击相应的栏位可以进入SuperMemo的浏览器（相当于资源管理器），即可看到这一天你所要复习的具体的单词。不仅如此，如果你想要知道某个单词的复习历史的话，你可以在学习窗口按下快捷键Ctrl+Shift+H来调出该单词的复习数据，如下图：</p>
+<p><img src="/blog/images/5f2d67f9t83363ef9f373_690.jpg" alt=""></p>
+<p>这样的详尽的数据在同类软件中是不多见的，好多软件厂家惟恐自己的算法被人掌握，竭尽所能地隐藏与算法相关的信息，但是对SuperMemo来说，这类对其他厂家来说是“秘密”的内容却大大方方地呈现在用户面前，这不得不让人佩服软件设计者的实力。因为如果不是对自己的算法有足够的自信，是绝不会公开这些数据的，否则的话，岂不是给自己的竞争对手提供攻击自己的数据吗？</p>
+<p>在这篇文章中，舍得向大家介绍了SuperMemo的两个复习进程，当天的复习进程大家可以通过统计窗口的Outstanding一栏来观察，这一复习进程的学习程序把它叫做“Final Drill”。“非当天”的复习进程大家可以通过工作量窗口来进行观察和分析，大家在学习的时候不妨关注一下这两个数据，你可以根据这个数据来合理地安排自己学习新材料的数量，在保证学习效果的同时，充分提高学习的效率。</p>
+<h2 id="SuperMemo是怎样工作的？">SuperMemo是怎样工作的？</h2><p>背单词一直是我们中国人学习英语中最头疼的问题之一，通常学习者会花大把的时间在“背单词”上，而往往收效甚微。</p>
+<p>SuperMemo的出现无疑是英语学习者的福音。这是一个拥有20多年历史的软件，开发者是波兰人Piotr Wozniak。跟其它同类软件略有不同的是，supermemo原来是作为一个博士论文的研究而开发的，后来才进入商业软件的领域。</p>
+<p>SuperMemo只专注于一件事：如何帮助你合理地安排每个单词的背诵间隔，这个记忆间隔安排得越科学，使用者的背诵效率就越高。使用SuperMemo，能够帮助你在“背单词”这个环节上节省大量的时间。</p>
+<p>那它是怎么做到的呢？</p>
+<p>在美国1999年世界记忆学大会上公布了一个成果，是“关于艾宾浩斯记忆曲线的定量性研究”研究成果表明在人类大脑记忆过程中，在某一时间内，会形成三种记忆，即感觉记忆、短时记忆和联想记忆。</p>
+<p>我们以一个记单词事件为例，当你开始记一个单词时，你在几秒中之内会产生一个“感觉记忆”，这个感觉记忆转瞬即失，每个人各不相同，但基本上都在3、4秒之内，这个在记单词时不会感觉太深，在什么时候感觉深呢？感觉记忆之后还会有一个“短时记忆”，也叫“工作记忆”。这个记忆的延续时间也各不相同，大概在4~16个小时之间，不同的人相差四倍，这个在什么时候用到呢？比如：老师在课间给学生说：下节课要听写昨天学的单词，你特别着急，下课后赶紧背，管不管用，管用！但是放学回家吃顿饭或玩了以下，就什么也记不起来了，这是短时记忆，也是记完后马上会消失掉。在这两个记忆消失的过程中，会产生一个长时记忆痕迹，这是我们最关心的东西，也是最有用的东西，你真正的记忆，学习一个单词，学习任何东西，都会用到长时记忆痕迹，它是一个抛物线，就会有个最顶点，是个最高点，这是你这次记忆单词的记忆最强点，这个点能产生一个记忆强度，在这，还能产生一个记忆时间Ｔ，在某个时间段，你对这次记忆单词会产生一个这次的一个最强点，那么，我们简单的来说，如果有谁能找到这点，这个时间段Ｔ，在这进行第二次的拉高复习，这是最有效的，我们翻书，我们看小纸片，其实是在模拟这个T，这个重复时间，即记忆黄金序列是由每个遗忘点排列而成。</p>
+<p>这个时候，问题就来了，你怎么知道哪个时间才是黄金时间？这个记忆黄金序列如何安排才合理？其实这个时间你可以根据遗忘曲线的原理来“手工”计算的（SuperMemo官方网站曾经有这样的一篇指导性文章），不过这样一来，用来计算的时间比真正用来学习的时间还要多！但是有了SuperMemo就不一样了，它自动就会给你安排好下次复习的时间，这就是SuperMemo存在的最大价值所在。</p>
+<p>在SuperMemo的算法中，会根据单词的掌握程度不同，安排不同的复习间隔。实践证明，这种设计相当有效。</p>
+<p>SuperMemo按单词的掌握程度分为六个等级，（这六个等级的描述舍得在《为什么选SuperMemo？》一文中介绍得很详细，在此不再赘述。舍得会在下一篇文章《奇迹智能记忆和SuperMemo的评分等级的对比》会对此作进一步分析；）单词越熟悉，相应所需的复习次数也就越少。这样才能真正把“好钢用在刀刃上”。所以在使用SuperMemo的时候，你能够用最少的复习次数获得最佳的记忆效果。</p>
+<p>所以说，SuperMemo是一个非常强劲的辅助记忆工具，每个人都可以利用它来提高自己的记忆效率。现在SuperMemo最新的版本是2008，这个版本舍得已经汉化了，大家可以点击下边的链接下载：点击转到下载页面。你还在等什么？赶紧行动吧！越早使用，越早受益。</p>
+<h2 id="浅析SuperMemo的评分体系">浅析SuperMemo的评分体系</h2><h3 id="为何使用评分体系？">为何使用评分体系？</h3><p>现在市场上用来背单词的软件非常多，但优秀的寥寥无几。我们选择背单词软件的目的，就是为了帮助自己节省用来背诵的时间，提高背诵的效率，快速增加英语词汇的原始积累。一款背单词软件是否优秀，首先就要看它的算法是否优秀，换句话说，我们要看这款软件给您设计的单词复习次数和复习间隔是否合理。</p>
+<p>市场上现有的背单词软件，所采用的算法大致可以分为以下两类：第一类用的是死算法，就是将所有的词汇安排同样的复习次数和复习间隔，举个例子，某些软件会照搬“艾宾浩斯记忆曲线”的原理，分别在1小时后，12小时后，1天后，2天后，5天后，8天后，14天安排单词的复习；这种算法最大的问题就是，明明一个词你已经非常熟悉，但你还是要花和一个生词同样的重复次数来记忆它！这样背诵效率怎么可能提高呢？相比之下，第二类算法则要科学的多，软件通常会采集用户的数据——也就是您对单词的熟悉程度，然后根据这个数据来安排单词的复习次数和复习的间隔。其中的道理是显而易见的，单词越熟悉，你所需的复习次数就越少，也就意味着，在特定的时间段内，复习此单词的间隔也就越长。</p>
+<p>那么，软件是如何来采集用户的数据的呢？答案很简单，就是使用一个评分体系。也就是说，您在学习一个单词的时候，系统会要求你根据单词的熟悉程度给这个单词评分。您的评分越贴近实际，软件运算出来的单词复习次数和复习间隔也就越科学。所以说，评分体系的优劣，直接决定了算法是否优秀。</p>
+<h3 id="SuperMemo背单词的流程">SuperMemo背单词的流程</h3><p>SuperMemo采用“提问＋回答”的模式来学习单词。我们来举例说明具体的背诵流程：比如说您要记忆abandon这个词，程序先会显示abandon，此时您要回忆abandon的词义，回忆完后，点击“显示答案”，程序会显示词义，然后您根据单词的熟悉程度来对这个单词进行评分，评分结束后进行下一个词条的学习。</p>
+<p><img src="/blog/images/sss5f2d67f9t83363ef9f373_690.jpg" alt=""></p>
+<h3 id="对比SuperMemo与同类软件的评分体系">对比SuperMemo与同类软件的评分体系</h3><p>我们选择国内比较有代表性的某“智能记忆”软件来进行评分体系的对比。先来看SuperMemo的评分体系。</p>
+<p>SuperMemo将单词按熟悉程度分成6级，分别表示为0-5，5是最高级别，级别划分如下：</p>
+<pre><code><span class="number">5</span>.掌握：一看到单词，立马就能脱口而出它的词义。这类词基本上不怎么要去记；
+
+<span class="number">4</span>.记住：知道单词的正确意思，但要花点时间想一想，才能说出正确的答案，而且你非常肯定这个答案是正确的。这类词很好突破，按照记忆曲线巩固一定时间， 就可以归到第<span class="number">5</span>类词中去。
+
+<span class="number">3</span>.蒙对：不确定单词的正确意思，猜一下，结果猜对了。脑子里在想，这个单词的词义究竟是A呢？还是<span class="keyword">B？蒙一下吧，结果你蒙对了。
+</span>
+<span class="number">2</span>.蒙错：不确定单词的正确意思，猜一下，结果猜错了。一看到答案时却发现：“啊，原来是这个意思，我知道的！”<span class="number">2</span>、<span class="number">3</span>两类的单词与其它各类词最根本的区别是，这种词你已经很熟悉（与<span class="number">0</span>、<span class="number">1</span>类词的区别），但无法肯定它的正确词义（与<span class="number">4</span>、<span class="number">5</span>类词的区别），随着猜对次数的不断增加，你对这个词的词义会由起初的“不确定”逐步过渡到“确定”，也就是说，逐步进入<span class="number">4</span>、<span class="number">5</span>类词的范围。
+
+<span class="number">1</span>.印象词：这种词你见过几次，只是模模糊糊中有些印象而已。这类词与<span class="number">2</span>、<span class="number">3</span>两类相比，其区别是“连猜测都无从猜起”，与<span class="number">0</span>类词的区别则是比它多见过几次，稍稍有些印象。
+
+<span class="number">0</span>.生词：完完全全的生词，你见都没见过。这种词在经过几个回合的重复之后，很快就能进入<span class="number">1</span>类词的范围，变成“好象在哪见过”。
+</code></pre><p><img src="/blog/images/pfdj.jpg" alt=""></p>
+<p>再来看看某智能记忆软件的评分体系：</p>
+<p>此软件的流程与SuperMemo略有不同：先显示单词=&gt;回忆词义=&gt;根据词义选择“记得”或“忘记”=&gt;程序显示词义=&gt;根据显示的词义判断“正确”或是“不正确”=&gt;进入下一个词条的学习。</p>
+<p>从此流程来看，它的评分体系是这样的：</p>
+<ol>
+<li>记得=&gt;正确：相当于将SuperMemo的4、5两类合并；</li>
+<li>记得=&gt;不正确：相当于SuperMemo中的第2类，即“蒙错”；</li>
+<li>忘记=&gt;正确：勉强可以视作SuperMemo中的第3类，即“蒙对”；</li>
+<li>忘记=&gt;不正确：相当于将SuperMemo的0，1两类合并；</li>
+</ol>
+<p>但该软件可能隐藏了一个评分级别，即根据选择“记得”和“忘记”的反应时间来将“记得=&gt;正确”这一类进行拆分。</p>
+<p>从比较中我们不难看出，该软件的评分体系相当于SuperMemo的简化版，相比之下，SuperMemo的评分体系条理更加清晰，层次更为丰富。“智能记忆”的主要问题发生在3、4这两个层次的划分上，我们不妨举例来说明：</p>
+<p>例1：您从来没有见过这个词，您肯定会选“忘记”，这时有两种可能：1）答案正确；2）答案不正确</p>
+<p>再来看例2：您看到一个挺熟的词，就是不大确定它的词义，您也会选“忘记”，同样也会有两种可能：1）答案正确；2）答案不正确</p>
+<p>我们假定在这两个例子中您的选择都是1，即“答案正确”，这个时候问题就出来了，事实上，例1里的词应该得到更多的复习次数和更短的复习间隔，而在该“智能记忆”软件中，它们的复习安排将不会有什么区别；更糟糕的是第二种情况，假如例1的选择是1，例2的选择是2，在这种情形中，熟词却要比生词获得更多的复习次数。这样效率怎么会提高呢？</p>
+<p>评分体系是整个算法的大前提，这个前提如果错误的话，后面的算法再怎么科学，所得出的结果也是不科学的。</p>
+<h2 id="学会分析SupermMemo2006的数据">学会分析SupermMemo2006的数据</h2><p>学会了使用SuperMemo之后，看着一个个窗口里的数据，你晕不晕？有51%以上的可能是会“晕”的吧。舍得就是曾经“晕”过的人，所以在早些日子，舍得是将学习窗口最大化，拒绝看那些数据的。</p>
+<p>用着用着，舍得开始对这些数据产生了兴趣，然后慢慢地去观察，同时学习官方的帮助文件，以掌握其中的规律。事实证明，这个工夫没有白花，看懂了那些关键的数据之后，舍得对掌控自己的学习进度更加得心应手。效率自然刷刷地上升。</p>
+<p>下面就让舍得来跟大家分享一下这方面的心得吧！</p>
+<p>一、统计窗口</p>
+<p>我们先从“统计（Statistics）”窗口开始，为了行文方便，以及更有效地推广汉化版，舍得会在以后的文章里用汉化版的界面来讲解，先上图：</p>
+<p><img src="/blog/images/tjck.jpg" alt=""></p>
+<p>前面的几条字面意义都已经表达得很清楚了，我们从计划背诵数开始讲，这里的原文是“Outstanding”，舍得是根据官方帮助文件中的解释，译成“计划背诵数”，例子中的“246+0+475”，前面一个数字“246”表示你当天要先复习的未掌握的词条数（是你以前累积下来，系统根据你的实际情况安排到当天的量，换句话说，就是你今天第一次打开这个词库时需要先复习的部分），第2个数字“0”和前面的意义一样，只不过它代表的是主题（Topics”第三个数字“475”则表示当天在总复习（也就是“Final Drill”）的过程中你应当复习的总数。在学习的过程中，“246”个词条是要一条一条先复习完毕，再开始学习新材料。每学一条，系统会根据你的评分决定什么时候再次进行复习，一般不会是当天。而在你之后进行学习新材料时，只要你的评分低于“Good”，第三个数字“475”就会加1；学完新材料后，系统会询问你“开始总复习？”，最终显示出来的第三个数字的值就是你当天总复习所需要面对的数字。</p>
+<p>未达成比：原文作“Retention”，意为“保持、保留、记忆”，直译很难表达真正的意思——反而会使人越看越糊涂。这个数值基本反映了本词库内你对词的掌握程度，例如，“78.13%”表示我还有78.36%的词汇需要不断巩固——但你必须知道的是，这仅仅是一个估算值。</p>
+<p>测算FI值和设定FI值：讲这个之前先来了解一下FI值的概念。FI是Forgetting Index（遗忘指数）的缩写，遗忘指数是你学习过程中失误（指评分在Fail以下，包括Fail）的总次数与重复的总次数的比例，系统用它可以来实现学习速度的调控。测算FI值是在你学习的过程中随你的评分变化而变化的，比如你选择Pass以上级别的时候（包括Pass），这个值会变小，反之则变大。变动的程度也是有区别的，以舍得目前这个词库为例，你选一个Pass，那它只降 0.01%左右，而选Bright则降0.02%左右。设定FI值原文作“Average FI（平均FI值）”，但它这个“平均”，是你在“工具-&gt;选项-&gt;学习”里进行设定的。系统用这个值来跟测算到的FI值进行比较，测算FI值越大，你所需投入的时间和精力就要相应地增加。官方是这样说的，“如果你感到学得太少，那就把设定FI值调小一点（因为测算FI值不是你直接控制的）；如果你感觉按排的重复学习太频繁，那就将设定FI值调高一些。”一般来说，设定FI值在8%－13%之间比较适合。测算FI值后面括号内的数字则是表示当天的一个测算结果，同理，设定FI值则是表示当天的设定结果。</p>
+<p>负荷值：测算平均每天的词条或主题的重复次数，这个值等价于所有间隔值（每个词条及主题）的倒数之和——知道或不知道这个对我们的学习帮助并不大。我们只要知道这个能够帮助我们了解到每天的工作量就可以了！</p>
+<p>工作量：这是个容易引起误解的词，它是负荷值乘以平均时间的乘积。事实上，实际舍得平均每天所花的可不仅仅是2分52秒。这个值对我们来说意义不是很大。</p>
+<p>Subset：子集（这个词可以汉化，但因为它的地址和其它词的地址不一样，有点吃不准，再加上用得较少，索性就不译），讲的是子集里计划学习的词条数量。</p>
+<p>Alarm：当你在“计划”里进行设置后，闹钟就开始启动了。不过大多数使用者可以无视这一条。</p>
+<p>Time：你花在回答问题上的时间，括号内的是总时间（这个总时间只要你开着SuperMemo它就在跑，所以意义不是很大）</p>
+<p>平均时间：你回答问题的平均反应时间，指的是从你按下“下一词条”到“显示答案”之间所花费的这一段时间（取平均值）。这是一个比较重要的参数，同样选Good，花费的时间不同，其结果也是不一样的。</p>
+<p>总时间：你在学习过程中总共花去的反应时间（反应时间的概念与上一条相同）。</p>
+<p>失误：平均每个词条（包括主题）出错的次数（指的是你选择Fail以下的评分级别，包括Fail），注意未学习的内容不参与计算。括号内的则是当天你所出错的次数。从这个例子看，就是说每一个词条平均出错0.726次，当天则共计出错50次）。非常实用的一个数据。</p>
+<p>速度：这是系统预估的你的学习速度，官方称它为“平均知识获取率”。还是把公式说一下吧，速度＝（已学词条及主题数/已用天数）/工作量*365，大家把这个例子用公式套一遍就明白了。</p>
+<p>耗时、日均耗时：基本上不需要说什么。有兴趣的话可以参看官方帮助文件中的公式。</p>
+<p>间隔：每个词条复习所用的平均间隔。间隔在SuperMemo里也是一个很重要的参数。跟我们使用者关系最密切的参数就数它了。记得越牢的词间隔越大，反之则越小。算法说到底，就是计算一个合适间隔的问题。这是SuperMemo的真正价值所在。</p>
+<p>背诵次数：其实应该是平均背诵次数，从后面的单位“次/条”可以看出来。</p>
+<p>总背诵(次）数：总共重复的次数。舍得在译这个词的时候，总喜欢把它译成“背诵”而不是“重复”。</p>
+<p>接下来的两个参数没什么好说的，只是在这里可以学习一下间隔的概念，间隔就是上次背诵和下次背诵之间（逻辑上有点小问题，反正就是两次背诵之间）的天数。</p>
+<p>预计完成日：必须解释一下的是，这个“完成”仅仅是指你把未学习的材料变成“已学习”，而不是到达“牢记”的程度。所以当“未学词条/主题数”(pending)为0的时候，预计完成日就永远都显示今天。这个参数的意义在于当你学习的内容比较多的时候，系统会根据你目前的进度来预测你学完所有新材料的那一天。</p>
+<p>A-Factor：这个词舍得索性就不译了，系统有时也简写成“AF”，是一个相当重要的参数。它被用来测量词条的难度，AF值越高，难度就越低，反之则越高。目前我们用作例子的这个词库AF值为4.1508，这个难度是相当低了。一般3.5左右的算是难度相对合理的。</p>
+<p>好了，上篇的内容我们就介绍到这里，不知道这样的介绍对你的学习有没有帮助呢？如果有什么想法的话，请给舍得留言。欢迎到舍得的学习力博客来探讨SuperMemo的各种问题。</p>
+<p>二、元素数据窗口</p>
+<p>在学习窗口下方，是一个元素数据窗口，主是作用是实时显示“词条/主题/任务”的数据，这里面有些数据是比较重要的。</p>
+<p>照例先上图：</p>
+<p><img src="/blog/images/yssjck.jpg" alt=""></p>
+<p>先来看左边一栏：</p>
+<p>背诵次数：不需要讲了，只是在你学过的词中，如果有“失误”记录的话，会在后面显示出来。</p>
+<p>间隔：当前间隔。参看上一节。</p>
+<p>上次背诵：告诉你上一次学习是在什么时候。</p>
+<p>下次背诵：除了给你日期，括号内的数字表示那一天总共已安排了多少量的学习。如果此处显示的日期是在今天之前的，那说明你有“拖欠”的学习任务。</p>
+<p>优先值：非常重要的一个数据！系统用百分比来表示当前词条在优先序列中的位置。例子中前面的“1.07%（Pos=16）”表示它在优先序列中排第16位（总元素数量为1403），舍得推断出来的公式是1403*1.07%+1＝16。词条掌握得越差，其优先值（百分比）越高，而其相应的位置也越靠后。</p>
+<p>遗忘指数：即FI值，参看上一节中的说明。</p>
+<p>难度：重要参数。难度值是根据间隔、失误次数、背诵次数、A-Factor值和首次评分这些数据计算得来的。其百分比值越大，难度越高。难度随成功的次数（选Pass以上的评分）增加而降低，随失败次数（Fail以下的评分）的增加而升高。正常的难度范围是16%－64%，超过64%的话就要好好分析了，是记忆冲突、单词太难？还是其他原因？括号中的Ord值则是所有数据根据难度值排序得来，Ord值越小，词就越“简单”。<br>A-Factor：参看上一节。</p>
+<p>U-Factor：对SuperMemo的算法来说这是个相当重要的参数，但对我们使用才说，实际意义并不是很大，你不知道也没关系。它是用“上次背诵”中的间隔除以间隔值得出的。在本例中，即10/5=2.</p>
+<p>将来背诵次数：预估在未来三十年内你需要重复背诵这个词的次数，非常有趣的一个数据。</p>
+<p>延迟：描述延迟的情况，这个值是用当前的间隔值除以最佳间隔值得出来的。最佳间隔的数据已经被隐藏——右栏显示的只是下一次的最佳间隔值。</p>
+<p>类型：显示当前元素类型是已学还是未学等，Memorized表示已学，Pending则表示未经学习的新材料。   </p>
+<p>接下来我们再来看右栏，右栏的数据是你在选择评分级别后才显示的，总复习的材料中将不显示这一栏数据：</p>
+<p>背诵次数：意思跟前面一样，只是显示的内容和格式有区别，它将当前背诵的次数也加进去了。在本例中，“4：1”表示正确4次，失误1次，总共背诵了5次。后面的“种类”这个词，原文是“Cat（＝Category）”,这个种类值是根据你的背诵历史记录来分析得出的，值越高说明这个词对你来说越难。</p>
+<p>新间隔：显示了当前的间隔和下次的间隔。下次的间隔值为15，表示当前的日期和下次背诵日期间隔15天，下次背诵日期是5月9日。<br>最佳间隔：最佳间隔只是一个参考值，可理解为“理论值”。舍得判断这是用来计算“延迟”值而设定的。实际上我们用的间隔值是“新间隔”。</p>
+<p>下次背诵和新优先值，这不难理解，不再赘述。</p>
+<p>预期FI值（Expected FI）、估算FI值（Estimated FI)：注意和上一节中讲的测算FI值(Measured FI)和设定FI值(Average FI)的不同之处在于。上一节中的两个值是整体的一个比例，而这两个值是针对单一的元素。预期FI值反映了回忆的难度，值越大难度越高。而估算FI值则是根据你当前的评分用SuperMemo的算法对预期FI值进行修正得来。大家注意观察一下不同的评分对估算FI值所带来的改变。另外，学习新材料的时候这两个值是没有的。</p>
+<p>新的A－Fator值和新的U－Factor值：分别参看A-Factor和U-Factor。</p>
+<p>标准评分：系统利用算法得出的一个评分值，与你的评分值密切相关。</p>
+<p>R-Factor更改和O-Factor更改：SuperMemo中的“Factor”很多，除了前面讲到的AF、UF，这里又来了RF和OF。这里的“R”是“Retension”的缩写（上一篇舍得讲到过，将它译作“未达成比”），而“O”是optimal的缩写。这两个Factor涉及到复杂的矩阵运算。对我们使用者来说，意义并不是很大。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/24/2012-11-29-supermemo/" data-id="cibqjh3hw00154opbob7d22oj" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/supermemo-SLE-学习材料/">supermemo SLE 学习材料</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-2012-11-25-win8-isntall" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/24/2012-11-25-win8-isntall/" class="article-date">
+  <time datetime="2015-06-24T00:45:15.409Z" itemprop="datePublished">2015-06-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/06/24/2012-11-25-win8-isntall/">win8安装</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="win8">win8</h2><h2 id="安装步骤">安装步骤</h2><ol>
+<li>使用NTT install安装</li>
+<li>将win8安装盘使用虚拟盘工具打开，将其中的文件拷到F:盘的根目录下</li>
+<li>运行NTT install，程序将对系统进行设置</li>
+<li>重启系统，根据提示选择NTT安装，实际使用中发现mode 2模式运行不正常，选择mode 1模式可以正常安装</li>
+<li>使用驱动精灵安装相关驱动程序，对于老型号计算机win8使用默认的声卡和显卡驱动，效果较差</li>
+</ol>
+<h2 id="应用程序安装">应用程序安装</h2><ol>
+<li>安装360安全卫士，网上有文章所360存在窃听用户隐私问题，但是在没有更好的选择情况下，可以先使用360</li>
+<li>安装autoit，安装sciteautoit</li>
+<li>winrar可以安装绿色版</li>
+<li>supermemo程序运行正常，不需要安装</li>
+<li>GVIM运行正常，不需要安装,everything插件运行不正常， <strong>将everything的命令行设置为兼容模式，以管理员身份运行</strong>程序可以运行，但是运行结果不多，原因不详</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/24/2012-11-25-win8-isntall/" data-id="cibqjh3ie001j4opb88hic1nl" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/windows/">windows</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-2012-11-06-vim" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/24/2012-11-06-vim/" class="article-date">
+  <time datetime="2015-06-24T00:45:15.390Z" itemprop="datePublished">2015-06-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/editor/">editor</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/06/24/2012-11-06-vim/">vim 学习记录</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="哲学">哲学</h2><h2 id="资源">资源</h2><p><a href="http://xbeta.info/vim-tutorials.htm" target="_blank" rel="external">VIM教程与学习资料汇总</a></p>
+<p><a href="https://github.com/vim-scripts/FindEverything" target="_blank" rel="external">使用everything进行文件搜索</a>，对findeverything.vim进行修改，不进行目录输入，代码修改如下:</p>
+<pre><code>    "let <span class="built_in">dir</span> = input("<span class="built_in">Find</span> <span class="flow">in</span> <span class="built_in">dir</span>: ", "", "<span class="built_in">dir</span>")
+    "let <span class="built_in">dir</span> = s:Handle_String(<span class="built_in">dir</span>)
+    "let <span class="built_in">cmd</span> = <span class="built_in">cmd</span> .' '. g:fe_es_option . ' ' . <span class="built_in">dir</span> . ' ' . pattern
+    ==&gt;        
+    let <span class="built_in">cmd</span> = <span class="built_in">cmd</span> .' '. g:fe_es_option . ' ' . pattern    
+--ES在win8下不能正常运行
+</code></pre><h2 id="插件">插件</h2><ol>
+<li>vundle        管理插件的插件</li>
+<li><p>SuperTab  使用tab键进行补齐操作，默认为上一次补齐方式</p>
+<p>  vim中其它的补全方式包括：</p>
+<pre><code>整行补全                        CTRL-<span class="keyword">X</span> CTRL-L
+根据当前文件里关键字补全        CTRL-<span class="keyword">X</span> CTRL-N
+根据字典补全                    CTRL-<span class="keyword">X</span> CTRL-K
+根据同义词字典补全              CTRL-<span class="keyword">X</span> CTRL-T
+根据头文件内关键字补全          CTRL-<span class="keyword">X</span> CTRL-I
+根据标签补全                    CTRL-<span class="keyword">X</span> CTRL-]
+补全文件名                      CTRL-<span class="keyword">X</span> CTRL-F
+补全宏定义                      CTRL-<span class="keyword">X</span> CTRL-D
+补全vim命令                     CTRL-<span class="keyword">X</span> CTRL-V
+用户自定义补全方式              CTRL-<span class="keyword">X</span> CTRL-U
+拼写建议                        CTRL-<span class="keyword">X</span> CTRL-S 
+</code></pre></li>
+<li><p>Markdown      markdown语法插件</p>
+<p>markdown插件有多个版本，有几个版本的插件无法正常高亮使用，原因不详，<a href="https://github.com/tpope/vim-markdown.git" target="_blank" rel="external">该链接插件可以正常工作</a><br>  该插件需要放在$VIMRUNTIME下才可以正常运行，原因不详</p>
+<h2 id="tips">tips</h2></li>
+<li><p>使用vundle进行插件管理</p>
+<p>  运行以下命令：</p>
+<pre><code><span class="keyword">cd</span> vim\vim73\
+<span class="keyword">mkdir</span> bundle
+<span class="keyword">cd</span>  bundle
+<span class="keyword">mkdir</span> vundle
+<span class="keyword">cd</span> vundle
+git clone http:<span class="comment">//github.com/gmarik/vundle.git </span>
+</code></pre></li>
+<li>使用supertab插件后可以通过tab键进行补全输入，<strong>关键是支持中文</strong>，感觉不错</li>
+<li>重新安装后vundle管理的插件需要重新安装,vundle需要依赖git命令,需要在path中加入git命令所在的目录,如果发现加入后没有效果,可以重启计算机使设置生效.</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/24/2012-11-06-vim/" data-id="cibqjh3ij001m4opbtxr2p69l" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vim-editor/">vim editor</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-2012-10-24-supermemo-word" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/24/2012-10-24-supermemo-word/" class="article-date">
+  <time datetime="2015-06-24T00:45:15.369Z" itemprop="datePublished">2015-06-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/supermemo/">supermemo</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/06/24/2012-10-24-supermemo-word/">supermemo 词库制作</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="TODO">TODO</h2><ol>
+<li><em>图片播放开始是慢慢变亮，退出时慢慢变暗</em></li>
+</ol>
+<h2 id="supermemo_云同步">supermemo 云同步</h2><p>如何同步不同电脑上的学习材料和学习进度？supermemoUX有网络版，但是supermemo没有网络版，只有自行想办法同步，目前的思路是借助云盘来进行同步，首先将需要同步的内容传送到云盘，然后通过同步软件将云盘的内容同步到本地。</p>
+<ol>
+<li><p>云盘的选择</p>
+<ul>
+<li>gdrive被墙，5G空间，无法使用<ul>
+<li>skydrive可以使用，7G空间，但是速度较慢</li>
+<li>QQ云盘微云，2G空间，可以使用，速度尚可</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>具体设置</p>
+<ul>
+<li>下载skydrvie客户端<ul>
+<li>安装运行，设置为自行启动</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="extreme_english材料导出">extreme english材料导出</h2><p>材料后缀为.smpak 或者.smdif2，后者为前者的补丁包，安装后位于同一目录，其结构一致，只是后缀不同而已。<br>smpak文件本身有新老文件格式差别，<br>使用<a href="https://github.com/onthway/supermemo/blob/master/smpackage.py" target="_blank" rel="external">smpakeage.py</a>进行解包，直接导出对应单词的mp3文件和png图片文件。</p>
+<h2 id="supermemo增量材料自动添加">supermemo增量材料自动添加</h2><p>   使用autoit脚本自动将剪贴板的数据添加到supermemo程序中,Ctrl+Alt+s</p>
+<h2 id="Q&amp;A文件生成">Q&amp;A文件生成</h2><ul>
+<li>文件按UTF-8进行编码</li>
+<li>回车换行符采用windows模式</li>
+<li>推荐使用emedit作为编辑器</li>
+<li>生成单词音图的sexp</li>
+<li><p>sm15对png文件支持有局限，将png文件转换为jpg文件，使用png2jpgpro进行转换</p>
+<p>代码如下：</p>
+<p>   ^(.*).mp3$<br>   Q: <font size="3" color="white">\1</font><br><img src="file:///d:/SLEMedia/images1/\1\.jpg" height="90%" alt="\1"> <bgsound src="file:///d:/SLEMedia/speech/\1\.mp3" loop="1">\r\nA:</bgsound></p>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/24/2012-10-24-supermemo-word/" data-id="cibqjh3i9001f4opbkdortk2o" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/supermemo-python-SLE-regex/">supermemo python SLE regex</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-2012-10-24-scite-install" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/24/2012-10-24-scite-install/" class="article-date">
+  <time datetime="2015-06-24T00:45:15.349Z" itemprop="datePublished">2015-06-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/editor/">editor</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/06/24/2012-10-24-scite-install/">SciTE 配置</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="SciTE背景黑色设置">SciTE背景黑色设置</h2><p>背景色</p>
+<pre><code>style.*.<span class="number">32</span>=$(<span class="attribute">font</span>.base),back:<span class="hexcolor">#333333</span>,fore:<span class="hexcolor">#fdffff</span>
+style.*.<span class="number">33</span>=back:<span class="hexcolor">#C0C0C0</span>,$(<span class="attribute">font</span>.base)
+style.*.<span class="number">37</span>=fore:<span class="hexcolor">#939393</span>
+</code></pre><p>光标所在行的背景色</p>
+<pre><code>caret.fore=<span class="hexcolor">#ffffff</span>
+caret<span class="class">.line</span><span class="class">.back</span>=<span class="hexcolor">#5d5d5d</span>
+</code></pre><p>选中时的字体、背景颜色及色彩透明度</p>
+<pre><code>selection.fore=<span class="hexcolor">#bfffd6</span>
+selection.back=<span class="hexcolor">#ffbcff</span>
+selection.alpha=<span class="number">95</span>
+colour.keyword=fore:<span class="hexcolor">#649bff</span>
+colour.operator=fore:<span class="hexcolor">#727272</span>
+</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/24/2012-10-24-scite-install/" data-id="cibqjh3i3001a4opb0ug96wa3" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/program-tools-editor/">program tools editor</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-2012-10-24-proxy-install" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/24/2012-10-24-proxy-install/" class="article-date">
+  <time datetime="2015-06-24T00:45:15.328Z" itemprop="datePublished">2015-06-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/proxy/">proxy</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/06/24/2012-10-24-proxy-install/">proxy 设置</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="goagent设置">goagent设置</h2><ol>
+<li>下载程序到本地，解压后分为local和server目录</li>
+<li>server/uploader.bat</li>
+<li>根据提示填写入appid</li>
+<li>等待上传完成</li>
+<li>local/proxy.ini 增加appid</li>
+<li>local/goagent.exe</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/24/2012-10-24-proxy-install/" data-id="cibqjh3io001q4opbd6m111bi" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/proxy/">proxy</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-2012-10-24-blog-wiki" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/24/2012-10-24-blog-wiki/" class="article-date">
+  <time datetime="2015-06-24T00:45:15.310Z" itemprop="datePublished">2015-06-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/06/24/2012-10-24-blog-wiki/">wiki和blog的比较-兼谈个人知识管理工具的选择</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="wiki_vs_blog">wiki vs blog</h2><p>wiki可以记录改进历史，内容组织更加系统化</p>
+<p>blog以日期为线索进行归档，与日期相关联</p>
+<p>两者如何共同协同使用，依然很纠结</p>
+<h2 id="wiki工具选择">wiki工具选择</h2><p>dukuwiki是一个文本型wiki工具，php写成，使用较为简单，通过插件可以支持markdown格式的文档</p>
+<p>dokuwiki工具的好处在：</p>
+<ol>
+<li>于不使用数据库，以文件形式存放wiki内容</li>
+<li>文件为纯文本，方便编辑和修改</li>
+<li>方便恢复，不担心系统出现问题后无法恢复</li>
+</ol>
+<h2 id="blog工具的选择">blog工具的选择</h2><p>jekyll octpress均是基于ruby的blog工具，octpress依赖于jekyll，</p>
+<p>pivotx是一个基于文本文件存储的blog工具</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/24/2012-10-24-blog-wiki/" data-id="cibqjh3fh00014opbha5s4jmh" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog-wiki/">blog wiki</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="page-2012-10-19-jekyll-install" class="article article-type-page" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/24/2012-10-19-jekyll-install/" class="article-date">
+  <time datetime="2015-06-24T00:45:15.290Z" itemprop="datePublished">2015-06-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/octopress/">octopress</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/06/24/2012-10-19-jekyll-install/">octopress 搭建</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="ToDo">ToDo</h2><ul>
+<li>如何支持窄行距</li>
+<li>缩进显示不正常</li>
+<li>git over https</li>
+<li>支持中文文件名</li>
+<li>支持svg文件</li>
+</ul>
+<h2 id="原理">原理</h2><ul>
+<li>git是一个版本管理工具，完成版本的控制；</li>
+<li>github是基于github的一个应用，可识别markdown语法标记，并自动生成html；</li>
+<li>jekyll是一个基于ruby的静态html页面生成工具，可以增加插件，可识别markdown语法标记；</li>
+</ul>
+<h2 id="在_Windows_7_下安装必要的软件">在 Windows 7 下安装必要的软件</h2><ul>
+<li>Octopress 在 git 中维护，需要安装 git</li>
+</ul>
+<p>到 <a href="http://code.google.com/p/msysgit/downloads/list" target="_blank" rel="external">msysgit</a> 查找下载最新版本<br>当前的最新版本 Git-1.7.9-preview20120201.exe，下载后直接安装  </p>
+<ul>
+<li>Octopress/Jekyll 是 ruby 应用程序，需要安装 ruby</li>
+</ul>
+<p>到 <a href="http://rubyforge.org/frs/?group_id=167" target="_blank" rel="external">RailsInstaller</a> 查找下载最新版本<br>Octopress 要求安装 <a href="http://rubyforge.org/frs/download.php/75127/rubyinstaller-1.9.2-p290.exe" target="_blank" rel="external">rubyinstaller-1.9.2-p290</a><br>安装后，确保 C:\Ruby192\bin 在 Windows 当前用户的 PATH 环境变量中<br>ruby 的模块工具 gem 在生成本地模块时可能需要用到编译环境<br>有两种选择 MinGW and MSYS 或 RubyInstaller DevKit<br>本文选择 RubyInstaller 推荐的 RubyInstaller DevKit<br>下载 <a href="https://github.com/downloads/oneclick/rubyinstaller/DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe" target="_blank" rel="external">RubyInstaller DevKit</a><br>安装需执行如下步骤<br>    将 DevKit 自解压包释放到 C:\DevKit<br>    在 Windows CMD 窗口中执行 ruby dk.rb init<br>    在 Windows CMD 窗口中执行 ruby dk.rb install</p>
+<ul>
+<li>jekyll/Octopress 使用 Python 编写的代码加亮系统 pygments，需要安装 python（可选）</li>
+</ul>
+<p>到 ActiveState 下载 最新的 <a href="http://www.activestate.com/activepython" target="_blank" rel="external">ActivePython-2.7</a> 版<br>执行安装程序<br>    在 Windows CMD 窗口中执行 easy_install pygments</p>
+<h2 id="软件安装后的_Windows_7_环境说明和配置">软件安装后的 Windows 7 环境说明和配置</h2><p>两种命令行环境<br>Windows 7 自己的 CMD窗口，用于输入 DOS 类命令<br>MINGW/Git Bash 窗口启动了 bash，可以输入 Linux 类命令<br>环境变量<br>在 Windows 的 “高级系统设置” 中设置的 环境变量 可以被 MINGW 窗口继承<br>设置 LANG 和 LC_ALL 两个环境变量，其值均设置为 zh_CN.UTF-8<br>在 CMD 窗口中测试： <code>echo %LANG% %LC_ALL%</code><br>在 MINGW 窗口中测试： <code>echo $LANG $LC_ALL</code><br>MINGW/Git Bash 窗口启动了 bash，可以使用 ~/.bash_profile 环境设置文件设置环境变量、命令别名等<br>$ echo “export LANG LC_ALL” &gt; ~/.bash_profile<br>$ echo “alias ll=’ls -l —color=tty’” &gt;&gt; ~/.bash_profile<br>$ echo “alias ls=’ls —color=tty’” &gt;&gt; ~/.bash_profile<br>注意：若希望~/.bash_profile中的设置生效，请启动 MINGW/Git Bash 窗口，而不是Windows 的 CMD窗口  </p>
+<h2 id="ruby_环境的初始配置">ruby 环境的初始配置</h2><p>设置 gem 的更新源<br>    gem sources —remove <a href="http://rubygems.org/" target="_blank" rel="external">http://rubygems.org/</a><br>    gem sources -a <a href="http://ruby.taobao.org/" target="_blank" rel="external">http://ruby.taobao.org/</a><br>    gem sources -l # 请确保只有 <a href="http://ruby.taobao.org" target="_blank" rel="external">http://ruby.taobao.org</a> 一行输出  </p>
+<p>安装 rdoc 和 bundler<br>    gem install rdoc bundler  </p>
+<h2 id="安装_Octopress">安装 Octopress</h2><ol>
+<li>克隆 Octopress  <pre><code><span class="built_in">mkdir</span> ~/repos  
+<span class="keyword">cd</span> ~/repos  
+git clone gi<span class="variable">t:</span>//github.<span class="keyword">com</span>/imathis/octopress.git sinosmond.github.<span class="keyword">com</span>  
+<span class="keyword">cd</span> ~/repos/sinomsond.github.<span class="keyword">com</span>  
+</code></pre></li>
+<li>修改 Octopress 的 GEM 源<br> vi Gemfile<pre><code>将行 ： <span class="built_in">source</span> <span class="string">"http://rubygems.org/"</span>  
+改为 ： <span class="built_in">source</span> <span class="string">"http://ruby.taobao.org/"</span>  
+</code></pre></li>
+<li>安装 Octopress 所需的GEM组件  <pre><code><span class="keyword">bundle </span>install  
+</code></pre></li>
+<li>生成 Octopress 的模版文件  <pre><code>$ rake <span class="keyword">install</span>  
+</code></pre>如果出现以下提示：        <pre><code>rake aborted!  
+You have already activated rake <span class="number">0.9</span>.2.2, <span class="keyword">but</span> your Gemfile requires rake <span class="number">0.9</span>.2.  
+Using bundle exec may solve this.  
+(See full trace <span class="keyword">by</span> <span class="property">running</span> task <span class="keyword">with</span> <span class="comment">--trace)  </span>
+</code></pre>解决方法:  <pre><code>$ bundle <span class="operator"><span class="keyword">update</span>;</span> rake <span class="operator"><span class="keyword">install</span>  </span>
+</code></pre></li>
+</ol>
+<h3 id="git_和_github">git 和 github</h3><p>学习 git 参考<br>为啥 Git 最棒<br>git - 简易指南<br>git 魔法 – git<br>10篇写给Git初学者的最佳教程<br>学习 Github 参考<br>如何高效利用GitHub<br>GotGitHub<br>The GitHub Hep<br>设置本地仓库和远程仓库的关联  </p>
+<p>创建 github 账号和仓库<br>下面的操作假定您注册了 <username> 的账号<br>下面的操作假定您创建了 <username>.github.com 的仓库<br>本例使用 sinosmond.github.com，请用 <username>.github.com 替换之<br>在本地版本库中设置远程版本库的别名<br>$ git remote add myblog git@github.com:sinosmond/sinosmond.github.com.git  </username></username></username></p>
+<h2 id="配置和使用_Octopress">配置和使用 Octopress</h2><h3 id="Octopress_的基本配置">Octopress 的基本配置</h3><p>编辑 _config.yml 文件 ，根据您自己的需要修改其值, 参考<br>若文件中包括中文，则存成 UTF-8 编码格式  </p>
+<pre><code><span class="label">url:</span>                <span class="preprocessor"># For rewriting urls for RSS, etc  </span>
+<span class="label">title:</span>              <span class="preprocessor"># Used in the header and title tags  </span>
+<span class="label">subtitle:</span>           <span class="preprocessor"># A description used in the header  </span>
+<span class="label">author:</span>             <span class="preprocessor"># Your name, for RSS, Copyright, Metadata  </span>
+<span class="label">simple_search:</span>      <span class="preprocessor"># Search engine for simple site search  </span>
+<span class="label">description:</span>        <span class="preprocessor"># A default meta description for your site  </span>
+<span class="label">subscribe_rss:</span>      <span class="preprocessor"># Url for your blog's feed, defauts to /atom.xml  </span>
+<span class="label">subscribe_email:</span>    <span class="preprocessor"># Url to subscribe by email (service required)  </span>
+<span class="label">email:</span>              <span class="preprocessor"># Email address for the RSS feed if you want it.  </span>
+</code></pre><h3 id="编辑新页面">编辑新页面</h3><p>生成 BLOG/静态 页面<br>rake new_post[“article name”] : 生成指定的 Blog 初始页面<br>rake new_page[“page name”] : 生成指定的静态初始页面<br>使用你惯用的编辑器修改新生成的文件<br>使用 YAML 语法设置本页面属性，用 Markdown 语法书写文章内容<br>若文件中包括中文，则存成 UTF-8 编码格式<br>Markdown 语法说明<br>Markdown: Dingus 是一个在线转换工具<br>若使用 kramdown 解析器，参考 kramdown 语法<br>Markdown 和多种标记语言的在线转换<br>Markdown 多种实现的在线比较<br>首次提交到 Github  </p>
+<p>rake setup_github_pages ： 配置 octopress 与 github 的连接<br>rake generate ： 生成静态文件<br>rake preview ： 在本机4000端口生成访问内容<br>rake deploy ： 发布文件到 github<br>使用 rake 任务管理 BLOG  </p>
+<p><code>$ rake -T</code><br>    rake clean                     # Clean out caches: .pygments-cache, .gist-c…<br>    rake copydot[source,dest]      # copy dot files for deployment<br>    rake deploy                    # Default deploy task<br>    rake gen_deploy                # Generate website and deploy<br>    rake generate                  # Generate jekyll site<br>    rake install[theme]            # Initial setup for Octopress: copies the de…<br>    rake integrate                 # Move all stashed posts back into the posts…<br>    rake isolate[filename]         # Move all other posts than the one currentl…<br>    rake list                      # list tasks<br>    rake new_page[filename]        # Create a new page in source/(filename)/ind…<br>    rake new_post[title]           # Begin a new post in source/_posts<br>    rake preview                   # preview the site in a web browser<br>    rake push                      # deploy public directory to github pages<br>    rake rsync                     # Deploy website via rsync<br>    rake set_root_dir[dir]         # Update configurations to support publishin…<br>    rake setup_github_pages[repo]  # Set up _deploy folder and deploy branch fo…<br>    rake update_source[theme]      # Move source to source.old, install source …<br>    rake update_style[theme]       # Move sass to sass.old, install sass theme …<br>    rake watch                     # Watch the site and regenerate when it changes  </p>
+<h2 id="进一步配置_Octopress">进一步配置 Octopress</h2><h3 id="配置_社会化网络_应用">配置 社会化网络 应用</h3><p>选择您中意的网站注册，获得用户名或网络代码，将代码存入 source/_includes/{post,custom} 目录<br>类型    国外服务    国内服务<br>Feed烧制    FeedBurner    FeedSky<br>分享到    AddThis    JiaThis<br>微博    Twitter    weibo.com<br>网络书签    Delicious, Google Bookmarks    QQ书签, 百度搜藏<br>网络图床    Flickr    yupoo , POCO<br>网络评论    Disqus    友言  </p>
+<h3 id="配置侧栏">配置侧栏</h3><p>在 _config.yml 中指定显示内容和显示顺序<br>显示内容<br>系统默认的显示边栏的内容基于 source/_includes 目录保存为 asides/<em>.html<br>用户自定义的边栏内容基于 source/_includes 目录保存为 custom/asides/</em>.html<br>显示顺序<br>blog_index_asides 控制BLOG首页的边栏显示<br>post_asides 控制每一个单独的BLOG页面显示时的边栏（对应 rake new_post[]）<br>page_asides 控制静态页面显示时的边栏（对应 rake new_page[]）  </p>
+<pre><code>blog_index_asides:  
+- custom/asides/feeds<span class="class">.html</span>  
+- asides/recent_posts<span class="class">.html</span>  
+- custom/asides/recent_comments<span class="class">.html</span>  
+- custom/asides/opers<span class="class">.html</span>  
+- asides/github<span class="class">.html</span>  
+- asides/twitter<span class="class">.html</span>  
+- asides/delicious<span class="class">.html</span>  
+- asides/pinboard<span class="class">.html</span>  
+- asides/googleplus<span class="class">.html</span>  
+- custom/asides/weibo<span class="class">.html</span>  
+- custom/asides/copyleft<span class="class">.html</span>  
+
+post_asides:  
+- asides/recent_posts<span class="class">.html</span>  
+- custom/asides/recent_comments<span class="class">.html</span>  
+- custom/asides/opers<span class="class">.html</span>  
+- custom/asides/copyleft<span class="class">.html</span>  
+
+page_asides:  
+- asides/recent_posts<span class="class">.html</span>  
+- custom/asides/recent_comments<span class="class">.html</span>  
+- custom/asides/copyleft<span class="class">.html</span>  
+</code></pre><h3 id="pandoc解析器">pandoc解析器</h3><ul>
+<li><p>为octopress增加pandoc支持<br>在octopress的gemfile中增加pandoc-ruby</p>
+</li>
+<li><p><a href="http://yangzetian.github.com/2012/04/15/jekyll-pandoc/" target="_blank" rel="external">为 Jekyll 装上瑞士军刀 Pandoc</a> 经过测试可以成功，<em>首先需要安装pandoc</em>，然后安装pandoc-rub组件</p>
+<ul>
+<li><p>支持中文字符编码：</p>
+</li>
+<li><p>liquid error: incompatible character encodings: UTF-8 and GBK</p>
+<p><code>chcp 65001</code></p>
+</li>
+<li><p>在参照Jekyll Quick Start一文对Jekyll进行安装和配置后，启动Jekyll –server时提示如下错误:Forbidden no access permission to /‘</p>
+<p>修改Jekyll读取文件时的默认编码，即将convertible.rb(去Jekyll安装目录里找吧)中的第29行（左右）由</p>
+<p> self.content = File.read(File.join(base, name))</p>
+<p>修改为</p>
+<p> self.content = File.read(File.join(base, name), :encoding =&gt; “utf-8”)</p>
+</li>
+</ul>
+</li>
+<li><p>pandoc可以解析数学公式如：</p>
+<p>   $e^x = \sum<em>{n=0}^\infty \frac{x^n}{n!} = \lim</em>{n\rightarrow\infty} (1+x/n)^n$</p>
+<p>   <a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown" target="_blank" rel="external">pandoc 语法</a></p>
+</li>
+<li><p>使用pandoc</p>
+</li>
+</ul>
+<p>在_config.yml增加以下内容：</p>
+<pre><code>markdown: pandoc
+pandoc:
+    extensions: [mathjax, standalone]  <span class="keyword">*</span><span class="keyword">*</span>注意缩进<span class="keyword">*</span><span class="keyword">*</span>
+</code></pre><ul>
+<li>修改jekyll支持pandoc（markdown.rb）</li>
+</ul>
+<p>增加以下内容(def setup以下)：</p>
+<pre><code><span class="keyword">when</span> <span class="string">'pandoc'</span>
+<span class="keyword">begin</span>
+<span class="keyword">require</span> <span class="string">'pandoc-ruby'</span>
+<span class="comment"># Load pandoc extensions</span>
+<span class="variable">@pandoc_extensions</span> = <span class="variable">@config</span>[<span class="string">'pandoc'</span>][<span class="string">'extensions'</span>].map { |e| e.to_sym }
+<span class="keyword">rescue</span> <span class="constant">LoadError</span>
+<span class="constant">STDERR</span>.puts <span class="string">'You are missing a library required for Markdown. Please run:'</span>
+<span class="constant">STDERR</span>.puts <span class="string">'  $ [sudo] gem install pandoc-ruby'</span>
+raise <span class="constant">FatalException</span>.new(<span class="string">"Missing dependency: pandoc-ruby"</span>)
+<span class="keyword">end</span>
+</code></pre><p>增加以下内容(def convert(content)以下)：</p>
+<pre><code><span class="keyword">when</span> <span class="string">'pandoc'</span>
+PandocRuby.<span class="keyword">new</span>(content, *<span class="property">@pandoc_extensions</span>).to_html
+</code></pre><h3 id="git_push_避免密码提示">git push 避免密码提示</h3><ul>
+<li><a href="https://help.github.com/articles/set-up-git#password-caching" target="_blank" rel="external">下载git-credential-winstore.exe</a></li>
+<li>运行git-credential-winstore.exe</li>
+<li>第一次提示时输入相应的用户名\密码</li>
+<li>后续就不再提示用户名\密码输入了</li>
+</ul>
+<h3 id="新的环境配置">新的环境配置</h3><p>重新安装操作系统后，会涉及到jekyll的环境重新配置，jekyll的运行涉及以下几个模块，ruby、devkit、pandoc、git，在path路径中增加如下：  </p>
+<pre><code>D:<span class="command">\OurInternet</span><span class="command">\Ruby</span>192<span class="command">\bin</span>;D:<span class="command">\OurInternet</span><span class="command">\devkit</span><span class="command">\bin</span>;D:<span class="command">\OurInternet</span><span class="command">\Pandoc</span><span class="command">\bin</span>;D:<span class="command">\OurInternet</span><span class="command">\Git</span><span class="command">\bin</span>
+</code></pre><h3 id="页面目录结构插件">页面目录结构插件</h3><p><a href="http://tonytonyjan.net/blog/octopress-indexer" target="_blank" rel="external">Indexer for Octopress</a>实现页面目录结构</p>
+<p>按正常方式配置无效，<a href="http://tonytonyjan.net/blog/octopress-indexer/#id-231cf4c70d866b616c21baddaeed0696" target="_blank" rel="external">Troubleshooting</a>可以实现</p>
+<p>对indexer.rb jekyll:indexer#process修改如下：</p>
+<pre><code><span class="title">idx</span> ||= <span class="string">'#'</span> + idx_raw
+==》
+idx = <span class="string">'#'</span> + idx_raw
+</code></pre><h3 id="增加新浪微博分享插件">增加新浪微博分享插件</h3><p><a href="https://github.com/zlu/octopress-sinaweibo" target="_blank" rel="external">sina weibo plugin for Octopress</a></p>
+<p>由于没有使用octopress自动框架，需要手动修改_layouts/post.html 和_layouts/page.html，使其包含custom/post/sharing.html </p>
+<h3 id="3D_tag-cloud插件">3D tag-cloud插件</h3><p>安装完成，需要对其进行修改：</p>
+<ol>
+<li><p>避免和category_list冲突，修改命名为category_3D_cloud</p>
+<pre><code>Liquid::Template.<span class="function"><span class="title">register_tag</span><span class="params">(<span class="string">'category_cloud'</span>, Jekyll::CategoryCumulusCloud)</span></span>    
+==&gt;
+Liquid::Template.<span class="function"><span class="title">register_tag</span><span class="params">(<span class="string">'category_3D_cloud'</span>, Jekyll::CategoryCumulusCloud)</span></span>    
+</code></pre></li>
+<li><p>其原有的swf不支持中文显示，<strong>目前没有解决方案</strong></p>
+</li>
+</ol>
+<h3 id="文章分类插件">文章分类插件</h3><p><a href="https://github.com/alswl/octopress-category-list" target="_blank" rel="external">文章分类(对应categories)</a>插件不使用octpress提供的，使用这个修改过的插件，避免和tag插件出现冲突。<br>在_config.yml增加:<br>    default_asides: </p>
+<pre><code>#- custom/asides/category_list<span class="class">.html</span> 
+- custom/asides/category_cloud<span class="class">.html</span>         
+</code></pre><p>中文分类名问题解决：</p>
+<ol>
+<li><p>plugin/category_generator.rb</p>
+<pre><code>categories = categories.sort!.map <span class="keyword">do</span> |item|
+<span class="string">"&lt;a class='category' href='/<span class="subst">#{dir}</span>/<span class="subst">#{item.gsub(<span class="regexp">/_|\P{Word}/</span>, <span class="string">'-'</span>).gsub(<span class="regexp">/-{2,}/</span>, <span class="string">'-'</span>).downcase}</span>/'&gt;<span class="subst">#{item}</span>&lt;/a&gt;"</span>
+=<span class="function">=&gt;</span>
+categories = categories.sort!.map <span class="keyword">do</span> |item|
+<span class="string">"&lt;a class='category' href='/<span class="subst">#{dir}</span>/<span class="subst">#{item.gsub(<span class="regexp">/_|\P{Word}/</span>, <span class="string">'-'</span>).gsub(<span class="regexp">/-{2,}/</span>, <span class="string">'-'</span>).downcase}</span>/index.html'&gt;<span class="subst">#{item}</span>&lt;/a&gt;"</span>
+</code></pre></li>
+<li><p>plugin/category_list.rb</p>
+<pre><code>url = category_dir + category.<span class="function"><span class="title">gsub</span><span class="params">(/_|\P{Word}/u, <span class="string">'-'</span>)</span></span>.<span class="function"><span class="title">gsub</span><span class="params">(/-{<span class="number">2</span>,}/u, <span class="string">'-'</span>)</span></span><span class="class">.downcase</span> + <span class="string">'/index.html'</span>
+==&gt;
+url = category_dir + category.<span class="function"><span class="title">gsub</span><span class="params">(/_|\P{Word}/u, <span class="string">'-'</span>)</span></span>.<span class="function"><span class="title">gsub</span><span class="params">(/-{<span class="number">2</span>,}/u, <span class="string">'-'</span>)</span></span><span class="class">.downcase</span> + <span class="string">'/index.html'</span>
+</code></pre></li>
+</ol>
+<h3 id="文章标签插件">文章标签插件</h3><p>在 github 找到这种插件： <a href="https://github.com/robbyedwards/octopress-tag-pages" target="_blank" rel="external">robbyedwards / octopress-tag-pages</a>和 <a href="https://github.com/robbyedwards/octopress-tag-cloud" target="_blank" rel="external">robbyedwards / octopress-tag-cloud</a>。前者负责采集文章的 tag 信息，后者提供标签云展示功能。</p>
+<p>需要修改的几个地方：</p>
+<ol>
+<li>文件头tag—&gt;tags  </li>
+<li><p>中文标签名支持有问题，需要更改</p>
+<ul>
+<li><p>plugin/tag_cloud.rb :</p>
+<pre><code>slug = name.to_s.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase  
+@separator = "" if i == (weighted.size - 1)
+html &lt;&lt; "#{<span class="ruby"><span class="variable">@tag_before</span>}</span>&lt;a style=\"font-size: #{<span class="ruby">size}</span>#{<span class="ruby">unit}</span>\" href=\"/#{<span class="ruby">dir}</span>/#{<span class="ruby">slug}</span>/\"&gt;#{<span class="ruby">name}</span>&lt;/a&gt;#{<span class="ruby"><span class="variable">@separator</span>}</span>#{<span class="ruby"><span class="variable">@tag_after</span>}</span>\n"
+=<span class="ruby"><span class="status">=&gt;</span>
+</span>slug = name.to_s.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase + '/index.html' 
+@separator = "" if i == (weighted.size - 1)
+html &lt;&lt; "#{<span class="ruby"><span class="variable">@tag_before</span>}</span>&lt;a style=\"font-size: #{<span class="ruby">size}</span>#{<span class="ruby">unit}</span>\" href=\"/#{<span class="ruby">dir}</span>/#{<span class="ruby">slug}</span>\"&gt;#{<span class="ruby">name}</span>&lt;/a&gt;#{<span class="ruby"><span class="variable">@separator</span>}</span>#{<span class="ruby"><span class="variable">@tag_after</span>}</span>\n"
+</code></pre></li>
+<li><p>plugin/tag_generate.rb:</p>
+<pre><code>tags = tags.sort!.map <span class="keyword">do</span> |item|
+<span class="string">"&lt;a class='tag' href='/<span class="subst">#{dir}</span>/<span class="subst">#{item.gsub(<span class="regexp">/_|\P{Word}/</span>, <span class="string">'-'</span>).gsub(<span class="regexp">/-{2,}/</span>, <span class="string">'-'</span>).downcase}</span>/'&gt;<span class="subst">#{item}</span>&lt;/a&gt;"</span>
+=<span class="function">=&gt;</span>
+tags = tags.sort!.map <span class="keyword">do</span> |item|
+<span class="string">"&lt;a class='tag' href='/<span class="subst">#{dir}</span>/<span class="subst">#{item.gsub(<span class="regexp">/_|\P{Word}/</span>, <span class="string">'-'</span>).gsub(<span class="regexp">/-{2,}/</span>, <span class="string">'-'</span>).downcase}</span>/index.html'&gt;<span class="subst">#{item}</span>&lt;/a&gt;"</span>
+</code></pre></li>
+<li><p>jekyll/page.rb:</p>
+<pre><code><span class="function"><span class="keyword">def</span> <span class="title">write</span></span>(dest)
+        path = destination(dest)
+        <span class="constant">FileUtils.</span>mkdir_p(<span class="constant">File.</span>dirname(path))
+        <span class="constant">File.</span>open(path, <span class="string">'w'</span>) <span class="keyword">do</span> |f|
+            f.write(<span class="keyword">self</span>.output)
+        <span class="keyword">end</span>
+<span class="keyword">end</span>
+==&gt;
+<span class="function"><span class="keyword">def</span> <span class="title">write</span></span>(dest)
+    path = destination(dest)
+    tp = <span class="constant">File.</span>join(dest, <span class="variable">@dir</span>)
+    <span class="constant">FileUtils.</span>mkdir_p(tp)
+    <span class="comment">#    FileUtils.mkdir_p(File.dirname(path)) **dirname在分析utf-8字符串时出现错误，因此将其规避**</span>
+    <span class="constant">File.</span>open(path, <span class="string">'w'</span>) <span class="keyword">do</span> |f|
+        f.write(<span class="keyword">self</span>.output)
+        <span class="keyword">end</span>
+<span class="keyword">end</span>
+</code></pre></li>
+</ul>
+</li>
+</ol>
+<h3 id="ditaa_插件">ditaa 插件</h3><p>安装<a href="http://sourceforge.net/projects/ditaa/files/?source=navbar" target="_blank" rel="external">ditaa</a>，该软件基于java，需要配置好java环境<br><a href="https://github.com/matze/jekyll-ditaa" target="_blank" rel="external">jekyll-ditaa</a>，分析其源程序，目前只支持linux系统，需要修改程序以便支持win32<br>存在的问题如下：</p>
+<ul>
+<li>不支持windows<br>  原脚本不支持windows需要改造</li>
+<li>ditaa不支持中文<br>  通过命令行测试可以支持中文，但是输入中文后，排版出现问题</li>
+<li>编码有问题<br>  写入的块数据，没有正常编码</li>
+</ul>
+<h2 id="辅助工具">辅助工具</h2><h3 id="更新管理源码的仓库分支">更新管理源码的仓库分支</h3><pre><code><span class="label">git</span> <span class="keyword">add </span>.  
+<span class="label">git</span> commit -m <span class="string">"add some changes"</span>  
+<span class="label">git</span> <span class="keyword">push </span>myblog source  
+</code></pre><h3 id="markdown编辑工具">markdown编辑工具</h3><ul>
+<li><a href="http://markdown.tw/" target="_blank" rel="external">MarkDown使用手册</a></li>
+<li><a href="http://markdownpad.com/" target="_blank" rel="external">MarkdownPad</a>,初步使用后，专用vim编辑器。  </li>
+<li><a href="https://github.com/adam-p/markdown-here" target="_blank" rel="external">Markdown here</a>一个chrome扩展,安装完成后，在gmail的新邮件编辑框里面直接按Markdown语法写作，完成后点鼠标右键即可翻译为html文档。</li>
+<li><a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">Markdown 语法</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/24/2012-10-19-jekyll-install/" data-id="cibqjh3he000s4opb4q1tplpd" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog-jekyll-github-git-ruby-python-安装-octopress/">blog jekyll github git ruby python 安装 octopress</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </nav>
+  
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/editor/">editor</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/lifehack/">lifehack</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/octopress/">octopress</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/proxy/">proxy</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/supermemo/">supermemo</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/中医/">中医</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具/">工具</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ATV-skill/">ATV skill</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/USB-skill/">USB skill</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog-jekyll-github-git-ruby-python-安装-octopress/">blog jekyll github git ruby python 安装 octopress</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog-wiki/">blog wiki</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/program-tools-editor/">program tools editor</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/proxy/">proxy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/supermemo-SLE-学习材料/">supermemo SLE 学习材料</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/supermemo-python-SLE-regex/">supermemo python SLE regex</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim-editor/">vim editor</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/windows/">windows</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/work-search/">work search</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/四圣心源-开启中医之门-三阴三阳-黄元御/">四圣心源 开启中医之门 三阴三阳 黄元御</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/李阳波-伤寒/">李阳波 伤寒</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/李阳波-刘力红-开启中医之门/">李阳波 刘力红 开启中医之门</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/黄帝内经-素问-灵枢/">黄帝内经 素问 灵枢</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/ATV-skill/" style="font-size: 10px;">ATV skill</a> <a href="/tags/USB-skill/" style="font-size: 10px;">USB skill</a> <a href="/tags/blog-jekyll-github-git-ruby-python-安装-octopress/" style="font-size: 10px;">blog jekyll github git ruby python 安装 octopress</a> <a href="/tags/blog-wiki/" style="font-size: 10px;">blog wiki</a> <a href="/tags/program-tools-editor/" style="font-size: 10px;">program tools editor</a> <a href="/tags/proxy/" style="font-size: 10px;">proxy</a> <a href="/tags/supermemo-SLE-学习材料/" style="font-size: 10px;">supermemo SLE 学习材料</a> <a href="/tags/supermemo-python-SLE-regex/" style="font-size: 10px;">supermemo python SLE regex</a> <a href="/tags/vim-editor/" style="font-size: 10px;">vim editor</a> <a href="/tags/windows/" style="font-size: 10px;">windows</a> <a href="/tags/work-search/" style="font-size: 10px;">work search</a> <a href="/tags/四圣心源-开启中医之门-三阴三阳-黄元御/" style="font-size: 10px;">四圣心源 开启中医之门 三阴三阳 黄元御</a> <a href="/tags/李阳波-伤寒/" style="font-size: 10px;">李阳波 伤寒</a> <a href="/tags/李阳波-刘力红-开启中医之门/" style="font-size: 10px;">李阳波 刘力红 开启中医之门</a> <a href="/tags/黄帝内经-素问-灵枢/" style="font-size: 10px;">黄帝内经 素问 灵枢</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a><span class="archive-list-count">17</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2015/07/05/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2015/06/24/2012-12-08-AppleTV-install/">Apple TV 安装</a>
+          </li>
+        
+          <li>
+            <a href="/2015/06/24/2012-12-03-USB-repair/">USB修复</a>
+          </li>
+        
+          <li>
+            <a href="/2015/06/24/2012-12-03-googledesktop-install/">googledesktop 搭建</a>
+          </li>
+        
+          <li>
+            <a href="/2015/06/24/2012-11-30-zhongyiziyuan/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2015 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>

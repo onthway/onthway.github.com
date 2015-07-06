@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>octopress 搭建 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="ToDo
+如何支持窄行距
+缩进显示不正常
+git over https
+支持中文文件名
+支持svg文件
+
+原理
+git是一个版本管理工具，完成版本的控制；
+github是基于github的一个应用，可识别markdown语法标记，并自动生成html；
+jekyll是一个基于ruby的静态html页面生成工具，可以增加插件，可识别markdown语法标记；
+
+在 Windows 7 下安装必要的软件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="octopress 搭建">
+<meta property="og:url" content="http://yoursite.com/2015/06/24/2012-10-19-jekyll-install/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="ToDo
+如何支持窄行距
+缩进显示不正常
+git over https
+支持中文文件名
+支持svg文件
+
+原理
+git是一个版本管理工具，完成版本的控制；
+github是基于github的一个应用，可识别markdown语法标记，并自动生成html；
+jekyll是一个基于ruby的静态html页面生成工具，可以增加插件，可识别markdown语法标记；
+
+在 Windows 7 下安装必要的软件">
+<meta property="og:updated_time" content="2013-01-05T08:01:54.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="octopress 搭建">
+<meta name="twitter:description" content="ToDo
+如何支持窄行距
+缩进显示不正常
+git over https
+支持中文文件名
+支持svg文件
+
+原理
+git是一个版本管理工具，完成版本的控制；
+github是基于github的一个应用，可识别markdown语法标记，并自动生成html；
+jekyll是一个基于ruby的静态html页面生成工具，可以增加插件，可识别markdown语法标记；
+
+在 Windows 7 下安装必要的软件">
+  
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="page-2012-10-19-jekyll-install" class="article article-type-page" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/06/24/2012-10-19-jekyll-install/" class="article-date">
+  <time datetime="2015-06-24T00:45:15.290Z" itemprop="datePublished">2015-06-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/octopress/">octopress</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      octopress 搭建
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="ToDo">ToDo</h2><ul>
+<li>如何支持窄行距</li>
+<li>缩进显示不正常</li>
+<li>git over https</li>
+<li>支持中文文件名</li>
+<li>支持svg文件</li>
+</ul>
+<h2 id="原理">原理</h2><ul>
+<li>git是一个版本管理工具，完成版本的控制；</li>
+<li>github是基于github的一个应用，可识别markdown语法标记，并自动生成html；</li>
+<li>jekyll是一个基于ruby的静态html页面生成工具，可以增加插件，可识别markdown语法标记；</li>
+</ul>
+<h2 id="在_Windows_7_下安装必要的软件">在 Windows 7 下安装必要的软件</h2><ul>
+<li>Octopress 在 git 中维护，需要安装 git</li>
+</ul>
+<p>到 <a href="http://code.google.com/p/msysgit/downloads/list" target="_blank" rel="external">msysgit</a> 查找下载最新版本<br>当前的最新版本 Git-1.7.9-preview20120201.exe，下载后直接安装  </p>
+<ul>
+<li>Octopress/Jekyll 是 ruby 应用程序，需要安装 ruby</li>
+</ul>
+<p>到 <a href="http://rubyforge.org/frs/?group_id=167" target="_blank" rel="external">RailsInstaller</a> 查找下载最新版本<br>Octopress 要求安装 <a href="http://rubyforge.org/frs/download.php/75127/rubyinstaller-1.9.2-p290.exe" target="_blank" rel="external">rubyinstaller-1.9.2-p290</a><br>安装后，确保 C:\Ruby192\bin 在 Windows 当前用户的 PATH 环境变量中<br>ruby 的模块工具 gem 在生成本地模块时可能需要用到编译环境<br>有两种选择 MinGW and MSYS 或 RubyInstaller DevKit<br>本文选择 RubyInstaller 推荐的 RubyInstaller DevKit<br>下载 <a href="https://github.com/downloads/oneclick/rubyinstaller/DevKit-tdm-32-4.5.2-20111229-1559-sfx.exe" target="_blank" rel="external">RubyInstaller DevKit</a><br>安装需执行如下步骤<br>    将 DevKit 自解压包释放到 C:\DevKit<br>    在 Windows CMD 窗口中执行 ruby dk.rb init<br>    在 Windows CMD 窗口中执行 ruby dk.rb install</p>
+<ul>
+<li>jekyll/Octopress 使用 Python 编写的代码加亮系统 pygments，需要安装 python（可选）</li>
+</ul>
+<p>到 ActiveState 下载 最新的 <a href="http://www.activestate.com/activepython" target="_blank" rel="external">ActivePython-2.7</a> 版<br>执行安装程序<br>    在 Windows CMD 窗口中执行 easy_install pygments</p>
+<h2 id="软件安装后的_Windows_7_环境说明和配置">软件安装后的 Windows 7 环境说明和配置</h2><p>两种命令行环境<br>Windows 7 自己的 CMD窗口，用于输入 DOS 类命令<br>MINGW/Git Bash 窗口启动了 bash，可以输入 Linux 类命令<br>环境变量<br>在 Windows 的 “高级系统设置” 中设置的 环境变量 可以被 MINGW 窗口继承<br>设置 LANG 和 LC_ALL 两个环境变量，其值均设置为 zh_CN.UTF-8<br>在 CMD 窗口中测试： <code>echo %LANG% %LC_ALL%</code><br>在 MINGW 窗口中测试： <code>echo $LANG $LC_ALL</code><br>MINGW/Git Bash 窗口启动了 bash，可以使用 ~/.bash_profile 环境设置文件设置环境变量、命令别名等<br>$ echo “export LANG LC_ALL” &gt; ~/.bash_profile<br>$ echo “alias ll=’ls -l —color=tty’” &gt;&gt; ~/.bash_profile<br>$ echo “alias ls=’ls —color=tty’” &gt;&gt; ~/.bash_profile<br>注意：若希望~/.bash_profile中的设置生效，请启动 MINGW/Git Bash 窗口，而不是Windows 的 CMD窗口  </p>
+<h2 id="ruby_环境的初始配置">ruby 环境的初始配置</h2><p>设置 gem 的更新源<br>    gem sources —remove <a href="http://rubygems.org/" target="_blank" rel="external">http://rubygems.org/</a><br>    gem sources -a <a href="http://ruby.taobao.org/" target="_blank" rel="external">http://ruby.taobao.org/</a><br>    gem sources -l # 请确保只有 <a href="http://ruby.taobao.org" target="_blank" rel="external">http://ruby.taobao.org</a> 一行输出  </p>
+<p>安装 rdoc 和 bundler<br>    gem install rdoc bundler  </p>
+<h2 id="安装_Octopress">安装 Octopress</h2><ol>
+<li>克隆 Octopress  <pre><code><span class="built_in">mkdir</span> ~/repos  
+<span class="keyword">cd</span> ~/repos  
+git clone gi<span class="variable">t:</span>//github.<span class="keyword">com</span>/imathis/octopress.git sinosmond.github.<span class="keyword">com</span>  
+<span class="keyword">cd</span> ~/repos/sinomsond.github.<span class="keyword">com</span>  
+</code></pre></li>
+<li>修改 Octopress 的 GEM 源<br> vi Gemfile<pre><code>将行 ： <span class="built_in">source</span> <span class="string">"http://rubygems.org/"</span>  
+改为 ： <span class="built_in">source</span> <span class="string">"http://ruby.taobao.org/"</span>  
+</code></pre></li>
+<li>安装 Octopress 所需的GEM组件  <pre><code><span class="keyword">bundle </span>install  
+</code></pre></li>
+<li>生成 Octopress 的模版文件  <pre><code>$ rake <span class="keyword">install</span>  
+</code></pre>如果出现以下提示：        <pre><code>rake aborted!  
+You have already activated rake <span class="number">0.9</span>.2.2, <span class="keyword">but</span> your Gemfile requires rake <span class="number">0.9</span>.2.  
+Using bundle exec may solve this.  
+(See full trace <span class="keyword">by</span> <span class="property">running</span> task <span class="keyword">with</span> <span class="comment">--trace)  </span>
+</code></pre>解决方法:  <pre><code>$ bundle <span class="operator"><span class="keyword">update</span>;</span> rake <span class="operator"><span class="keyword">install</span>  </span>
+</code></pre></li>
+</ol>
+<h3 id="git_和_github">git 和 github</h3><p>学习 git 参考<br>为啥 Git 最棒<br>git - 简易指南<br>git 魔法 – git<br>10篇写给Git初学者的最佳教程<br>学习 Github 参考<br>如何高效利用GitHub<br>GotGitHub<br>The GitHub Hep<br>设置本地仓库和远程仓库的关联  </p>
+<p>创建 github 账号和仓库<br>下面的操作假定您注册了 <username> 的账号<br>下面的操作假定您创建了 <username>.github.com 的仓库<br>本例使用 sinosmond.github.com，请用 <username>.github.com 替换之<br>在本地版本库中设置远程版本库的别名<br>$ git remote add myblog git@github.com:sinosmond/sinosmond.github.com.git  </username></username></username></p>
+<h2 id="配置和使用_Octopress">配置和使用 Octopress</h2><h3 id="Octopress_的基本配置">Octopress 的基本配置</h3><p>编辑 _config.yml 文件 ，根据您自己的需要修改其值, 参考<br>若文件中包括中文，则存成 UTF-8 编码格式  </p>
+<pre><code><span class="label">url:</span>                <span class="preprocessor"># For rewriting urls for RSS, etc  </span>
+<span class="label">title:</span>              <span class="preprocessor"># Used in the header and title tags  </span>
+<span class="label">subtitle:</span>           <span class="preprocessor"># A description used in the header  </span>
+<span class="label">author:</span>             <span class="preprocessor"># Your name, for RSS, Copyright, Metadata  </span>
+<span class="label">simple_search:</span>      <span class="preprocessor"># Search engine for simple site search  </span>
+<span class="label">description:</span>        <span class="preprocessor"># A default meta description for your site  </span>
+<span class="label">subscribe_rss:</span>      <span class="preprocessor"># Url for your blog's feed, defauts to /atom.xml  </span>
+<span class="label">subscribe_email:</span>    <span class="preprocessor"># Url to subscribe by email (service required)  </span>
+<span class="label">email:</span>              <span class="preprocessor"># Email address for the RSS feed if you want it.  </span>
+</code></pre><h3 id="编辑新页面">编辑新页面</h3><p>生成 BLOG/静态 页面<br>rake new_post[“article name”] : 生成指定的 Blog 初始页面<br>rake new_page[“page name”] : 生成指定的静态初始页面<br>使用你惯用的编辑器修改新生成的文件<br>使用 YAML 语法设置本页面属性，用 Markdown 语法书写文章内容<br>若文件中包括中文，则存成 UTF-8 编码格式<br>Markdown 语法说明<br>Markdown: Dingus 是一个在线转换工具<br>若使用 kramdown 解析器，参考 kramdown 语法<br>Markdown 和多种标记语言的在线转换<br>Markdown 多种实现的在线比较<br>首次提交到 Github  </p>
+<p>rake setup_github_pages ： 配置 octopress 与 github 的连接<br>rake generate ： 生成静态文件<br>rake preview ： 在本机4000端口生成访问内容<br>rake deploy ： 发布文件到 github<br>使用 rake 任务管理 BLOG  </p>
+<p><code>$ rake -T</code><br>    rake clean                     # Clean out caches: .pygments-cache, .gist-c…<br>    rake copydot[source,dest]      # copy dot files for deployment<br>    rake deploy                    # Default deploy task<br>    rake gen_deploy                # Generate website and deploy<br>    rake generate                  # Generate jekyll site<br>    rake install[theme]            # Initial setup for Octopress: copies the de…<br>    rake integrate                 # Move all stashed posts back into the posts…<br>    rake isolate[filename]         # Move all other posts than the one currentl…<br>    rake list                      # list tasks<br>    rake new_page[filename]        # Create a new page in source/(filename)/ind…<br>    rake new_post[title]           # Begin a new post in source/_posts<br>    rake preview                   # preview the site in a web browser<br>    rake push                      # deploy public directory to github pages<br>    rake rsync                     # Deploy website via rsync<br>    rake set_root_dir[dir]         # Update configurations to support publishin…<br>    rake setup_github_pages[repo]  # Set up _deploy folder and deploy branch fo…<br>    rake update_source[theme]      # Move source to source.old, install source …<br>    rake update_style[theme]       # Move sass to sass.old, install sass theme …<br>    rake watch                     # Watch the site and regenerate when it changes  </p>
+<h2 id="进一步配置_Octopress">进一步配置 Octopress</h2><h3 id="配置_社会化网络_应用">配置 社会化网络 应用</h3><p>选择您中意的网站注册，获得用户名或网络代码，将代码存入 source/_includes/{post,custom} 目录<br>类型    国外服务    国内服务<br>Feed烧制    FeedBurner    FeedSky<br>分享到    AddThis    JiaThis<br>微博    Twitter    weibo.com<br>网络书签    Delicious, Google Bookmarks    QQ书签, 百度搜藏<br>网络图床    Flickr    yupoo , POCO<br>网络评论    Disqus    友言  </p>
+<h3 id="配置侧栏">配置侧栏</h3><p>在 _config.yml 中指定显示内容和显示顺序<br>显示内容<br>系统默认的显示边栏的内容基于 source/_includes 目录保存为 asides/<em>.html<br>用户自定义的边栏内容基于 source/_includes 目录保存为 custom/asides/</em>.html<br>显示顺序<br>blog_index_asides 控制BLOG首页的边栏显示<br>post_asides 控制每一个单独的BLOG页面显示时的边栏（对应 rake new_post[]）<br>page_asides 控制静态页面显示时的边栏（对应 rake new_page[]）  </p>
+<pre><code>blog_index_asides:  
+- custom/asides/feeds<span class="class">.html</span>  
+- asides/recent_posts<span class="class">.html</span>  
+- custom/asides/recent_comments<span class="class">.html</span>  
+- custom/asides/opers<span class="class">.html</span>  
+- asides/github<span class="class">.html</span>  
+- asides/twitter<span class="class">.html</span>  
+- asides/delicious<span class="class">.html</span>  
+- asides/pinboard<span class="class">.html</span>  
+- asides/googleplus<span class="class">.html</span>  
+- custom/asides/weibo<span class="class">.html</span>  
+- custom/asides/copyleft<span class="class">.html</span>  
+
+post_asides:  
+- asides/recent_posts<span class="class">.html</span>  
+- custom/asides/recent_comments<span class="class">.html</span>  
+- custom/asides/opers<span class="class">.html</span>  
+- custom/asides/copyleft<span class="class">.html</span>  
+
+page_asides:  
+- asides/recent_posts<span class="class">.html</span>  
+- custom/asides/recent_comments<span class="class">.html</span>  
+- custom/asides/copyleft<span class="class">.html</span>  
+</code></pre><h3 id="pandoc解析器">pandoc解析器</h3><ul>
+<li><p>为octopress增加pandoc支持<br>在octopress的gemfile中增加pandoc-ruby</p>
+</li>
+<li><p><a href="http://yangzetian.github.com/2012/04/15/jekyll-pandoc/" target="_blank" rel="external">为 Jekyll 装上瑞士军刀 Pandoc</a> 经过测试可以成功，<em>首先需要安装pandoc</em>，然后安装pandoc-rub组件</p>
+<ul>
+<li><p>支持中文字符编码：</p>
+</li>
+<li><p>liquid error: incompatible character encodings: UTF-8 and GBK</p>
+<p><code>chcp 65001</code></p>
+</li>
+<li><p>在参照Jekyll Quick Start一文对Jekyll进行安装和配置后，启动Jekyll –server时提示如下错误:Forbidden no access permission to /‘</p>
+<p>修改Jekyll读取文件时的默认编码，即将convertible.rb(去Jekyll安装目录里找吧)中的第29行（左右）由</p>
+<p> self.content = File.read(File.join(base, name))</p>
+<p>修改为</p>
+<p> self.content = File.read(File.join(base, name), :encoding =&gt; “utf-8”)</p>
+</li>
+</ul>
+</li>
+<li><p>pandoc可以解析数学公式如：</p>
+<p>   $e^x = \sum<em>{n=0}^\infty \frac{x^n}{n!} = \lim</em>{n\rightarrow\infty} (1+x/n)^n$</p>
+<p>   <a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown" target="_blank" rel="external">pandoc 语法</a></p>
+</li>
+<li><p>使用pandoc</p>
+</li>
+</ul>
+<p>在_config.yml增加以下内容：</p>
+<pre><code>markdown: pandoc
+pandoc:
+    extensions: [mathjax, standalone]  <span class="keyword">*</span><span class="keyword">*</span>注意缩进<span class="keyword">*</span><span class="keyword">*</span>
+</code></pre><ul>
+<li>修改jekyll支持pandoc（markdown.rb）</li>
+</ul>
+<p>增加以下内容(def setup以下)：</p>
+<pre><code><span class="keyword">when</span> <span class="string">'pandoc'</span>
+<span class="keyword">begin</span>
+<span class="keyword">require</span> <span class="string">'pandoc-ruby'</span>
+<span class="comment"># Load pandoc extensions</span>
+<span class="variable">@pandoc_extensions</span> = <span class="variable">@config</span>[<span class="string">'pandoc'</span>][<span class="string">'extensions'</span>].map { |e| e.to_sym }
+<span class="keyword">rescue</span> <span class="constant">LoadError</span>
+<span class="constant">STDERR</span>.puts <span class="string">'You are missing a library required for Markdown. Please run:'</span>
+<span class="constant">STDERR</span>.puts <span class="string">'  $ [sudo] gem install pandoc-ruby'</span>
+raise <span class="constant">FatalException</span>.new(<span class="string">"Missing dependency: pandoc-ruby"</span>)
+<span class="keyword">end</span>
+</code></pre><p>增加以下内容(def convert(content)以下)：</p>
+<pre><code><span class="keyword">when</span> <span class="string">'pandoc'</span>
+PandocRuby.<span class="keyword">new</span>(content, *<span class="property">@pandoc_extensions</span>).to_html
+</code></pre><h3 id="git_push_避免密码提示">git push 避免密码提示</h3><ul>
+<li><a href="https://help.github.com/articles/set-up-git#password-caching" target="_blank" rel="external">下载git-credential-winstore.exe</a></li>
+<li>运行git-credential-winstore.exe</li>
+<li>第一次提示时输入相应的用户名\密码</li>
+<li>后续就不再提示用户名\密码输入了</li>
+</ul>
+<h3 id="新的环境配置">新的环境配置</h3><p>重新安装操作系统后，会涉及到jekyll的环境重新配置，jekyll的运行涉及以下几个模块，ruby、devkit、pandoc、git，在path路径中增加如下：  </p>
+<pre><code>D:<span class="command">\OurInternet</span><span class="command">\Ruby</span>192<span class="command">\bin</span>;D:<span class="command">\OurInternet</span><span class="command">\devkit</span><span class="command">\bin</span>;D:<span class="command">\OurInternet</span><span class="command">\Pandoc</span><span class="command">\bin</span>;D:<span class="command">\OurInternet</span><span class="command">\Git</span><span class="command">\bin</span>
+</code></pre><h3 id="页面目录结构插件">页面目录结构插件</h3><p><a href="http://tonytonyjan.net/blog/octopress-indexer" target="_blank" rel="external">Indexer for Octopress</a>实现页面目录结构</p>
+<p>按正常方式配置无效，<a href="http://tonytonyjan.net/blog/octopress-indexer/#id-231cf4c70d866b616c21baddaeed0696" target="_blank" rel="external">Troubleshooting</a>可以实现</p>
+<p>对indexer.rb jekyll:indexer#process修改如下：</p>
+<pre><code><span class="title">idx</span> ||= <span class="string">'#'</span> + idx_raw
+==》
+idx = <span class="string">'#'</span> + idx_raw
+</code></pre><h3 id="增加新浪微博分享插件">增加新浪微博分享插件</h3><p><a href="https://github.com/zlu/octopress-sinaweibo" target="_blank" rel="external">sina weibo plugin for Octopress</a></p>
+<p>由于没有使用octopress自动框架，需要手动修改_layouts/post.html 和_layouts/page.html，使其包含custom/post/sharing.html </p>
+<h3 id="3D_tag-cloud插件">3D tag-cloud插件</h3><p>安装完成，需要对其进行修改：</p>
+<ol>
+<li><p>避免和category_list冲突，修改命名为category_3D_cloud</p>
+<pre><code>Liquid::Template.<span class="function"><span class="title">register_tag</span><span class="params">(<span class="string">'category_cloud'</span>, Jekyll::CategoryCumulusCloud)</span></span>    
+==&gt;
+Liquid::Template.<span class="function"><span class="title">register_tag</span><span class="params">(<span class="string">'category_3D_cloud'</span>, Jekyll::CategoryCumulusCloud)</span></span>    
+</code></pre></li>
+<li><p>其原有的swf不支持中文显示，<strong>目前没有解决方案</strong></p>
+</li>
+</ol>
+<h3 id="文章分类插件">文章分类插件</h3><p><a href="https://github.com/alswl/octopress-category-list" target="_blank" rel="external">文章分类(对应categories)</a>插件不使用octpress提供的，使用这个修改过的插件，避免和tag插件出现冲突。<br>在_config.yml增加:<br>    default_asides: </p>
+<pre><code>#- custom/asides/category_list<span class="class">.html</span> 
+- custom/asides/category_cloud<span class="class">.html</span>         
+</code></pre><p>中文分类名问题解决：</p>
+<ol>
+<li><p>plugin/category_generator.rb</p>
+<pre><code>categories = categories.sort!.map <span class="keyword">do</span> |item|
+<span class="string">"&lt;a class='category' href='/<span class="subst">#{dir}</span>/<span class="subst">#{item.gsub(<span class="regexp">/_|\P{Word}/</span>, <span class="string">'-'</span>).gsub(<span class="regexp">/-{2,}/</span>, <span class="string">'-'</span>).downcase}</span>/'&gt;<span class="subst">#{item}</span>&lt;/a&gt;"</span>
+=<span class="function">=&gt;</span>
+categories = categories.sort!.map <span class="keyword">do</span> |item|
+<span class="string">"&lt;a class='category' href='/<span class="subst">#{dir}</span>/<span class="subst">#{item.gsub(<span class="regexp">/_|\P{Word}/</span>, <span class="string">'-'</span>).gsub(<span class="regexp">/-{2,}/</span>, <span class="string">'-'</span>).downcase}</span>/index.html'&gt;<span class="subst">#{item}</span>&lt;/a&gt;"</span>
+</code></pre></li>
+<li><p>plugin/category_list.rb</p>
+<pre><code>url = category_dir + category.<span class="function"><span class="title">gsub</span><span class="params">(/_|\P{Word}/u, <span class="string">'-'</span>)</span></span>.<span class="function"><span class="title">gsub</span><span class="params">(/-{<span class="number">2</span>,}/u, <span class="string">'-'</span>)</span></span><span class="class">.downcase</span> + <span class="string">'/index.html'</span>
+==&gt;
+url = category_dir + category.<span class="function"><span class="title">gsub</span><span class="params">(/_|\P{Word}/u, <span class="string">'-'</span>)</span></span>.<span class="function"><span class="title">gsub</span><span class="params">(/-{<span class="number">2</span>,}/u, <span class="string">'-'</span>)</span></span><span class="class">.downcase</span> + <span class="string">'/index.html'</span>
+</code></pre></li>
+</ol>
+<h3 id="文章标签插件">文章标签插件</h3><p>在 github 找到这种插件： <a href="https://github.com/robbyedwards/octopress-tag-pages" target="_blank" rel="external">robbyedwards / octopress-tag-pages</a>和 <a href="https://github.com/robbyedwards/octopress-tag-cloud" target="_blank" rel="external">robbyedwards / octopress-tag-cloud</a>。前者负责采集文章的 tag 信息，后者提供标签云展示功能。</p>
+<p>需要修改的几个地方：</p>
+<ol>
+<li>文件头tag—&gt;tags  </li>
+<li><p>中文标签名支持有问题，需要更改</p>
+<ul>
+<li><p>plugin/tag_cloud.rb :</p>
+<pre><code>slug = name.to_s.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase  
+@separator = "" if i == (weighted.size - 1)
+html &lt;&lt; "#{<span class="ruby"><span class="variable">@tag_before</span>}</span>&lt;a style=\"font-size: #{<span class="ruby">size}</span>#{<span class="ruby">unit}</span>\" href=\"/#{<span class="ruby">dir}</span>/#{<span class="ruby">slug}</span>/\"&gt;#{<span class="ruby">name}</span>&lt;/a&gt;#{<span class="ruby"><span class="variable">@separator</span>}</span>#{<span class="ruby"><span class="variable">@tag_after</span>}</span>\n"
+=<span class="ruby"><span class="status">=&gt;</span>
+</span>slug = name.to_s.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase + '/index.html' 
+@separator = "" if i == (weighted.size - 1)
+html &lt;&lt; "#{<span class="ruby"><span class="variable">@tag_before</span>}</span>&lt;a style=\"font-size: #{<span class="ruby">size}</span>#{<span class="ruby">unit}</span>\" href=\"/#{<span class="ruby">dir}</span>/#{<span class="ruby">slug}</span>\"&gt;#{<span class="ruby">name}</span>&lt;/a&gt;#{<span class="ruby"><span class="variable">@separator</span>}</span>#{<span class="ruby"><span class="variable">@tag_after</span>}</span>\n"
+</code></pre></li>
+<li><p>plugin/tag_generate.rb:</p>
+<pre><code>tags = tags.sort!.map <span class="keyword">do</span> |item|
+<span class="string">"&lt;a class='tag' href='/<span class="subst">#{dir}</span>/<span class="subst">#{item.gsub(<span class="regexp">/_|\P{Word}/</span>, <span class="string">'-'</span>).gsub(<span class="regexp">/-{2,}/</span>, <span class="string">'-'</span>).downcase}</span>/'&gt;<span class="subst">#{item}</span>&lt;/a&gt;"</span>
+=<span class="function">=&gt;</span>
+tags = tags.sort!.map <span class="keyword">do</span> |item|
+<span class="string">"&lt;a class='tag' href='/<span class="subst">#{dir}</span>/<span class="subst">#{item.gsub(<span class="regexp">/_|\P{Word}/</span>, <span class="string">'-'</span>).gsub(<span class="regexp">/-{2,}/</span>, <span class="string">'-'</span>).downcase}</span>/index.html'&gt;<span class="subst">#{item}</span>&lt;/a&gt;"</span>
+</code></pre></li>
+<li><p>jekyll/page.rb:</p>
+<pre><code><span class="function"><span class="keyword">def</span> <span class="title">write</span></span>(dest)
+        path = destination(dest)
+        <span class="constant">FileUtils.</span>mkdir_p(<span class="constant">File.</span>dirname(path))
+        <span class="constant">File.</span>open(path, <span class="string">'w'</span>) <span class="keyword">do</span> |f|
+            f.write(<span class="keyword">self</span>.output)
+        <span class="keyword">end</span>
+<span class="keyword">end</span>
+==&gt;
+<span class="function"><span class="keyword">def</span> <span class="title">write</span></span>(dest)
+    path = destination(dest)
+    tp = <span class="constant">File.</span>join(dest, <span class="variable">@dir</span>)
+    <span class="constant">FileUtils.</span>mkdir_p(tp)
+    <span class="comment">#    FileUtils.mkdir_p(File.dirname(path)) **dirname在分析utf-8字符串时出现错误，因此将其规避**</span>
+    <span class="constant">File.</span>open(path, <span class="string">'w'</span>) <span class="keyword">do</span> |f|
+        f.write(<span class="keyword">self</span>.output)
+        <span class="keyword">end</span>
+<span class="keyword">end</span>
+</code></pre></li>
+</ul>
+</li>
+</ol>
+<h3 id="ditaa_插件">ditaa 插件</h3><p>安装<a href="http://sourceforge.net/projects/ditaa/files/?source=navbar" target="_blank" rel="external">ditaa</a>，该软件基于java，需要配置好java环境<br><a href="https://github.com/matze/jekyll-ditaa" target="_blank" rel="external">jekyll-ditaa</a>，分析其源程序，目前只支持linux系统，需要修改程序以便支持win32<br>存在的问题如下：</p>
+<ul>
+<li>不支持windows<br>  原脚本不支持windows需要改造</li>
+<li>ditaa不支持中文<br>  通过命令行测试可以支持中文，但是输入中文后，排版出现问题</li>
+<li>编码有问题<br>  写入的块数据，没有正常编码</li>
+</ul>
+<h2 id="辅助工具">辅助工具</h2><h3 id="更新管理源码的仓库分支">更新管理源码的仓库分支</h3><pre><code><span class="label">git</span> <span class="keyword">add </span>.  
+<span class="label">git</span> commit -m <span class="string">"add some changes"</span>  
+<span class="label">git</span> <span class="keyword">push </span>myblog source  
+</code></pre><h3 id="markdown编辑工具">markdown编辑工具</h3><ul>
+<li><a href="http://markdown.tw/" target="_blank" rel="external">MarkDown使用手册</a></li>
+<li><a href="http://markdownpad.com/" target="_blank" rel="external">MarkdownPad</a>,初步使用后，专用vim编辑器。  </li>
+<li><a href="https://github.com/adam-p/markdown-here" target="_blank" rel="external">Markdown here</a>一个chrome扩展,安装完成后，在gmail的新邮件编辑框里面直接按Markdown语法写作，完成后点鼠标右键即可翻译为html文档。</li>
+<li><a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">Markdown 语法</a></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/06/24/2012-10-19-jekyll-install/" data-id="cibqjh3he000s4opb4q1tplpd" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog-jekyll-github-git-ruby-python-安装-octopress/">blog jekyll github git ruby python 安装 octopress</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/06/24/2012-10-24-blog-wiki/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          wiki和blog的比较-兼谈个人知识管理工具的选择
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/editor/">editor</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/lifehack/">lifehack</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/octopress/">octopress</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/proxy/">proxy</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/supermemo/">supermemo</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/中医/">中医</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具/">工具</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/ATV-skill/">ATV skill</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/USB-skill/">USB skill</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog-jekyll-github-git-ruby-python-安装-octopress/">blog jekyll github git ruby python 安装 octopress</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog-wiki/">blog wiki</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/program-tools-editor/">program tools editor</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/proxy/">proxy</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/supermemo-SLE-学习材料/">supermemo SLE 学习材料</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/supermemo-python-SLE-regex/">supermemo python SLE regex</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim-editor/">vim editor</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/windows/">windows</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/work-search/">work search</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/四圣心源-开启中医之门-三阴三阳-黄元御/">四圣心源 开启中医之门 三阴三阳 黄元御</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/李阳波-伤寒/">李阳波 伤寒</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/李阳波-刘力红-开启中医之门/">李阳波 刘力红 开启中医之门</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/黄帝内经-素问-灵枢/">黄帝内经 素问 灵枢</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/ATV-skill/" style="font-size: 10px;">ATV skill</a> <a href="/tags/USB-skill/" style="font-size: 10px;">USB skill</a> <a href="/tags/blog-jekyll-github-git-ruby-python-安装-octopress/" style="font-size: 10px;">blog jekyll github git ruby python 安装 octopress</a> <a href="/tags/blog-wiki/" style="font-size: 10px;">blog wiki</a> <a href="/tags/program-tools-editor/" style="font-size: 10px;">program tools editor</a> <a href="/tags/proxy/" style="font-size: 10px;">proxy</a> <a href="/tags/supermemo-SLE-学习材料/" style="font-size: 10px;">supermemo SLE 学习材料</a> <a href="/tags/supermemo-python-SLE-regex/" style="font-size: 10px;">supermemo python SLE regex</a> <a href="/tags/vim-editor/" style="font-size: 10px;">vim editor</a> <a href="/tags/windows/" style="font-size: 10px;">windows</a> <a href="/tags/work-search/" style="font-size: 10px;">work search</a> <a href="/tags/四圣心源-开启中医之门-三阴三阳-黄元御/" style="font-size: 10px;">四圣心源 开启中医之门 三阴三阳 黄元御</a> <a href="/tags/李阳波-伤寒/" style="font-size: 10px;">李阳波 伤寒</a> <a href="/tags/李阳波-刘力红-开启中医之门/" style="font-size: 10px;">李阳波 刘力红 开启中医之门</a> <a href="/tags/黄帝内经-素问-灵枢/" style="font-size: 10px;">黄帝内经 素问 灵枢</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a><span class="archive-list-count">17</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2015/07/05/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2015/06/24/2012-12-08-AppleTV-install/">Apple TV 安装</a>
+          </li>
+        
+          <li>
+            <a href="/2015/06/24/2012-12-03-USB-repair/">USB修复</a>
+          </li>
+        
+          <li>
+            <a href="/2015/06/24/2012-12-03-googledesktop-install/">googledesktop 搭建</a>
+          </li>
+        
+          <li>
+            <a href="/2015/06/24/2012-11-30-zhongyiziyuan/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2015 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
