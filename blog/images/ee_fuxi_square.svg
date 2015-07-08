@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet href="svg_eecolor.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1200" height="1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!--标题和文档的描述-->
+	<title>易易SVG图之伏羲六十四方图方案一）</title>
+	<desc>设计为一个正方形的表格。</desc>
+	<!--该文档的元数据，描述图片相关信息和版权-->
+	<metadata>
+  
+  </metadata>
+	<!--文档中用到的字体样式-->
+	<defs>
+		<style type="text/css"><![CDATA[
+                    @font-face {
+                      font-family: 'ee_sim_hei'; 
+                      font-weight: normal;          
+                      <!--src: url("ee_sim_hei.svg#ee_sim_hei") format(svg)-->
+                    }
+                    .textFont{
+                    font-family:黑体,隶书; 
+                    font-weight:normal;
+                    font-size:24px;
+                    }   
+                    
+                    .grid{
+                    stroke:rgb(128,0,0);
+                    stroke-width:1;
+                    stroke-opacity:1;fill:none
+                    }    
+.e0color{
+fill:black;
+stroke:black;
+}
+.e10color{
+fill:#cccccc;
+stroke:#cccccc;
+}
+.e11color{
+fill:#333333;
+stroke:#333333;
+}
+.e20color{
+fill:#cccccc;
+stroke:#cccccc;
+}
+.e21color{
+fill:#999999;
+stroke:#999999;
+}
+.e22color{
+fill:#666666;
+stroke:#666666;
+}
+.e23color{
+fill:#333333;
+stroke:#333333;
+}
+.e30color{
+fill:#CCCCBB;
+stroke:#999988;
+}
+.e31color{
+fill:#CC6699;
+stroke:#993366;
+}
+.e32color{
+fill:#99CC66;
+stroke:#669933;
+}
+.e33color{
+fill:#996633;
+stroke:#663300;
+}
+.e34color{
+fill:#6699CC;
+stroke:#336699;
+}
+.e35color{
+fill:#663399;
+stroke:#330066;
+}
+.e36color{
+fill:#339966;
+stroke:#006633;
+}
+.e37color{
+fill:#443333;
+stroke:#110000;
+}
+.e60color{
+fill:#CCCCBB;
+stroke:#999988;
+}
+.e61color{
+fill:#CCCC99;
+stroke:#999966;
+}
+.e62color{
+fill:#CCCC66;
+stroke:#999933;
+}
+.e63color{
+fill:#CCCC33;
+stroke:#999900;
+}
+.e64color{
+fill:#CC99CC;
+stroke:#996699;
+}
+.e65color{
+fill:#CC9999;
+stroke:#996666;
+}
+.e66color{
+fill:#CC9966;
+stroke:#996633;
+}
+.e67color{
+fill:#CC9933;
+stroke:#996600;
+}
+.e68color{
+fill:#CC66CC;
+stroke:#993399;
+}
+.e69color{
+fill:#CC6699;
+stroke:#993366;
+}
+.e610color{
+fill:#CC6666;
+stroke:#993333;
+}
+.e611color{
+fill:#CC6633;
+stroke:#993300;
+}
+.e612color{
+fill:#CC33CC;
+stroke:#990099;
+}
+.e613color{
+fill:#CC3399;
+stroke:#990066;
+}
+.e614color{
+fill:#CC3366;
+stroke:#990033;
+}
+.e615color{
+fill:#CC3333;
+stroke:#990000;
+}
+.e616color{
+fill:#99CCCC;
+stroke:#669999;
+}
+.e617color{
+fill:#99CC99;
+stroke:#669966;
+}
+.e618color{
+fill:#99CC66;
+stroke:#669933;
+}
+.e619color{
+fill:#99CC33;
+stroke:#669900;
+}
+.e620color{
+fill:#9999CC;
+stroke:#666699;
+}
+.e621color{
+fill:#999999;
+stroke:#666666;
+}
+.e622color{
+fill:#999966;
+stroke:#666633;
+}
+.e623color{
+fill:#999933;
+stroke:#666600;
+}
+.e624color{
+fill:#9966CC;
+stroke:#663399;
+}
+.e625color{
+fill:#996699;
+stroke:#663366;
+}
+.e626color{
+fill:#996666;
+stroke:#663333;
+}
+.e627color{
+fill:#996633;
+stroke:#663300;
+}
+.e628color{
+fill:#9933CC;
+stroke:#660099;
+}
+.e629color{
+fill:#993399;
+stroke:#660066;
+}
+.e630color{
+fill:#993366;
+stroke:#660033;
+}
+.e631color{
+fill:#993333;
+stroke:#660000;
+}
+.e632color{
+fill:#66CCCC;
+stroke:#339999;
+}
+.e633color{
+fill:#66CC99;
+stroke:#339966;
+}
+.e634color{
+fill:#66CC66;
+stroke:#339933;
+}
+.e635color{
+fill:#66CC33;
+stroke:#339900;
+}
+.e636color{
+fill:#6699CC;
+stroke:#336699;
+}
+.e637color{
+fill:#669999;
+stroke:#336666;
+}
+.e638color{
+fill:#669966;
+stroke:#336633;
+}
+.e639color{
+fill:#669933;
+stroke:#336600;
+}
+.e640color{
+fill:#6666CC;
+stroke:#333399;
+}
+.e641color{
+fill:#666699;
+stroke:#333366;
+}
+.e642color{
+fill:#666666;
+stroke:#333333;
+}
+.e643color{
+fill:#666633;
+stroke:#333300;
+}
+.e644color{
+fill:#6633CC;
+stroke:#330099;
+}
+.e645color{
+fill:#663399;
+stroke:#330066;
+}
+.e646color{
+fill:#663366;
+stroke:#330033;
+}
+.e647color{
+fill:#663333;
+stroke:#330000;
+}
+.e648color{
+fill:#33CCCC;
+stroke:#009999;
+}
+.e649color{
+fill:#33CC99;
+stroke:#009966;
+}
+.e650color{
+fill:#33CC66;
+stroke:#009933;
+}
+.e651color{
+fill:#33CC33;
+stroke:#009900;
+}
+.e652color{
+fill:#3399CC;
+stroke:#006699;
+}
+.e653color{
+fill:#339999;
+stroke:#006666;
+}
+.e654color{
+fill:#339966;
+stroke:#006633;
+}
+.e655color{
+fill:#339933;
+stroke:#006600;
+}
+.e656color{
+fill:#3366CC;
+stroke:#003399;
+}
+.e657color{
+fill:#336699;
+stroke:#003366;
+}
+.e658color{
+fill:#336666;
+stroke:#003333;
+}
+.e659color{
+fill:#336633;
+stroke:#003300;
+}
+.e660color{
+fill:#3333CC;
+stroke:#000099;
+}
+.e661color{
+fill:#333399;
+stroke:#000066;
+}
+.e662color{
+fill:#333366;
+stroke:#000033;
+}
+.e663color{
+fill:#443333;
+stroke:#110000;
+}
+.e30palecolor{
+fill:#FFFFBB;
+stroke:#FFFFBB;
+}
+.e31palecolor{
+fill:#FF99CC;
+stroke:#FF99CC;
+}
+.e32palecolor{
+fill:#CCFF99;
+stroke:#CCFF99;
+}
+.e33palecolor{
+fill:#CC9966;
+stroke:#CC9966;
+}
+.e34palecolor{
+fill:#99CCFF;
+stroke:#99CCFF;
+}
+.e35palecolor{
+fill:#9966CC;
+stroke:#9966CC;
+}
+.e36palecolor{
+fill:#66CC99;
+stroke:#66CC99;
+}
+.e37palecolor{
+fill:#446666;
+stroke:#446666;
+}
+.e60palecolor{
+fill:#FFFFBB;
+stroke:#FFFFBB;
+}
+.e61palecolor{
+fill:#FFFFCC;
+stroke:#FFFFCC;
+}
+.e62palecolor{
+fill:#FFFF99;
+stroke:#FFFF99;
+}
+.e63palecolor{
+fill:#FFFF66;
+stroke:#FFFF66;
+}
+.e64palecolor{
+fill:#FFCCFF;
+stroke:#FFCCFF;
+}
+.e65palecolor{
+fill:#FFCCCC;
+stroke:#FFCCCC;
+}
+.e66palecolor{
+fill:#FFCC99;
+stroke:#FFCC99;
+}
+.e67palecolor{
+fill:#FFCC66;
+stroke:#FFCC66;
+}
+.e68palecolor{
+fill:#FF99FF;
+stroke:#FF99FF;
+}
+.e69palecolor{
+fill:#FF99CC;
+stroke:#FF99CC;
+}
+.e610palecolor{
+fill:#FF9999;
+stroke:#FF9999;
+}
+.e611palecolor{
+fill:#FF9966;
+stroke:#FF9966;
+}
+.e612palecolor{
+fill:#FF66FF;
+stroke:#FF66FF;
+}
+.e613palecolor{
+fill:#FF66CC;
+stroke:#FF66CC;
+}
+.e614palecolor{
+fill:#FF6699;
+stroke:#FF6699;
+}
+.e615palecolor{
+fill:#FF6666;
+stroke:#FF6666;
+}
+.e616palecolor{
+fill:#CCFFFF;
+stroke:#CCFFFF;
+}
+.e617palecolor{
+fill:#CCFFCC;
+stroke:#CCFFCC;
+}
+.e618palecolor{
+fill:#CCFF99;
+stroke:#CCFF99;
+}
+.e619palecolor{
+fill:#CCFF66;
+stroke:#CCFF66;
+}
+.e620palecolor{
+fill:#CCCCFF;
+stroke:#CCCCFF;
+}
+.e621palecolor{
+fill:#CCCCCC;
+stroke:#CCCCCC;
+}
+.e622palecolor{
+fill:#CCCC99;
+stroke:#CCCC99;
+}
+.e623palecolor{
+fill:#CCCC66;
+stroke:#CCCC66;
+}
+.e624palecolor{
+fill:#CC99FF;
+stroke:#CC99FF;
+}
+.e625palecolor{
+fill:#CC99CC;
+stroke:#CC99CC;
+}
+.e626palecolor{
+fill:#CC9999;
+stroke:#CC9999;
+}
+.e627palecolor{
+fill:#CC9966;
+stroke:#CC9966;
+}
+.e628palecolor{
+fill:#CC66FF;
+stroke:#CC66FF;
+}
+.e629palecolor{
+fill:#CC66CC;
+stroke:#CC66CC;
+}
+.e630palecolor{
+fill:#CC6699;
+stroke:#CC6699;
+}
+.e631palecolor{
+fill:#CC6666;
+stroke:#CC6666;
+}
+.e632palecolor{
+fill:#99FFFF;
+stroke:#99FFFF;
+}
+.e633palecolor{
+fill:#99FFCC;
+stroke:#99FFCC;
+}
+.e634palecolor{
+fill:#99FF99;
+stroke:#99FF99;
+}
+.e635palecolor{
+fill:#99FF66;
+stroke:#99FF66;
+}
+.e636palecolor{
+fill:#99CCFF;
+stroke:#99CCFF;
+}
+.e637palecolor{
+fill:#99CCCC;
+stroke:#99CCCC;
+}
+.e638palecolor{
+fill:#99CC99;
+stroke:#99CC99;
+}
+.e639palecolor{
+fill:#99CC66;
+stroke:#99CC66;
+}
+.e640palecolor{
+fill:#9999FF;
+stroke:#9999FF;
+}
+.e641palecolor{
+fill:#9999CC;
+stroke:#9999CC;
+}
+.e642palecolor{
+fill:#999999;
+stroke:#999999;
+}
+.e643palecolor{
+fill:#999966;
+stroke:#999966;
+}
+.e644palecolor{
+fill:#9966FF;
+stroke:#9966FF;
+}
+.e645palecolor{
+fill:#9966CC;
+stroke:#9966CC;
+}
+.e646palecolor{
+fill:#996699;
+stroke:#996699;
+}
+.e647palecolor{
+fill:#996666;
+stroke:#996666;
+}
+.e648palecolor{
+fill:#66FFFF;
+stroke:#66FFFF;
+}
+.e649palecolor{
+fill:#66FFCC;
+stroke:#66FFCC;
+}
+.e650palecolor{
+fill:#66FF99;
+stroke:#66FF99;
+}
+.e651palecolor{
+fill:#66FF66;
+stroke:#66FF66;
+}
+.e652palecolor{
+fill:#66CCFF;
+stroke:#66CCFF;
+}
+.e653palecolor{
+fill:#66CCCC;
+stroke:#66CCCC;
+}
+.e654palecolor{
+fill:#66CC99;
+stroke:#66CC99;
+}
+.e655palecolor{
+fill:#66CC66;
+stroke:#66CC66;
+}
+.e656palecolor{
+fill:#6699FF;
+stroke:#6699FF;
+}
+.e657palecolor{
+fill:#6699CC;
+stroke:#6699CC;
+}
+.e658palecolor{
+fill:#669999;
+stroke:#669999;
+}
+.e659palecolor{
+fill:#669966;
+stroke:#669966;
+}
+.e660palecolor{
+fill:#6666FF;
+stroke:#6666FF;
+}
+.e661palecolor{
+fill:#6666CC;
+stroke:#6666CC;
+}
+.e662palecolor{
+fill:#666699;
+stroke:#666699;
+}
+.e663palecolor{
+fill:#776666;
+stroke:#776666;
+}
+.e30darkcolor{
+fill:#999988;
+stroke:#999988;
+}
+.e31darkcolor{
+fill:#993366;
+stroke:#993366;
+}
+.e32darkcolor{
+fill:#669933;
+stroke:#669933;
+}
+.e33darkcolor{
+fill:#663300;
+stroke:#663300;
+}
+.e34darkcolor{
+fill:#336699;
+stroke:#336699;
+}
+.e35darkcolor{
+fill:#330066;
+stroke:#330066;
+}
+.e36darkcolor{
+fill:#006633;
+stroke:#006633;
+}
+.e37darkcolor{
+fill:#110000;
+stroke:#110000;
+}
+.e60darkcolor{
+fill:#999988;
+stroke:#999988;
+}
+.e61darkcolor{
+fill:#999966;
+stroke:#999966;
+}
+.e62darkcolor{
+fill:#999933;
+stroke:#999933;
+}
+.e63darkcolor{
+fill:#999900;
+stroke:#999900;
+}
+.e64darkcolor{
+fill:#996699;
+stroke:#996699;
+}
+.e65darkcolor{
+fill:#996666;
+stroke:#996666;
+}
+.e66darkcolor{
+fill:#996633;
+stroke:#996633;
+}
+.e67darkcolor{
+fill:#996600;
+stroke:#996600;
+}
+.e68darkcolor{
+fill:#993399;
+stroke:#993399;
+}
+.e69darkcolor{
+fill:#993366;
+stroke:#993366;
+}
+.e610darkcolor{
+fill:#993333;
+stroke:#993333;
+}
+.e611darkcolor{
+fill:#993300;
+stroke:#993300;
+}
+.e612darkcolor{
+fill:#990099;
+stroke:#990099;
+}
+.e613darkcolor{
+fill:#990066;
+stroke:#990066;
+}
+.e614darkcolor{
+fill:#990033;
+stroke:#990033;
+}
+.e615darkcolor{
+fill:#990000;
+stroke:#990000;
+}
+.e616darkcolor{
+fill:#669999;
+stroke:#669999;
+}
+.e617darkcolor{
+fill:#669966;
+stroke:#669966;
+}
+.e618darkcolor{
+fill:#669933;
+stroke:#669933;
+}
+.e619darkcolor{
+fill:#669900;
+stroke:#669900;
+}
+.e620darkcolor{
+fill:#666699;
+stroke:#666699;
+}
+.e621darkcolor{
+fill:#666666;
+stroke:#666666;
+}
+.e622darkcolor{
+fill:#666633;
+stroke:#666633;
+}
+.e623darkcolor{
+fill:#666600;
+stroke:#666600;
+}
+.e624darkcolor{
+fill:#663399;
+stroke:#663399;
+}
+.e625darkcolor{
+fill:#663366;
+stroke:#663366;
+}
+.e626darkcolor{
+fill:#663333;
+stroke:#663333;
+}
+.e627darkcolor{
+fill:#663300;
+stroke:#663300;
+}
+.e628darkcolor{
+fill:#660099;
+stroke:#660099;
+}
+.e629darkcolor{
+fill:#660066;
+stroke:#660066;
+}
+.e630darkcolor{
+fill:#660033;
+stroke:#660033;
+}
+.e631darkcolor{
+fill:#660000;
+stroke:#660000;
+}
+.e632darkcolor{
+fill:#339999;
+stroke:#339999;
+}
+.e633darkcolor{
+fill:#339966;
+stroke:#339966;
+}
+.e634darkcolor{
+fill:#339933;
+stroke:#339933;
+}
+.e635darkcolor{
+fill:#339900;
+stroke:#339900;
+}
+.e636darkcolor{
+fill:#336699;
+stroke:#336699;
+}
+.e637darkcolor{
+fill:#336666;
+stroke:#336666;
+}
+.e638darkcolor{
+fill:#336633;
+stroke:#336633;
+}
+.e639darkcolor{
+fill:#336600;
+stroke:#336600;
+}
+.e640darkcolor{
+fill:#333399;
+stroke:#333399;
+}
+.e641darkcolor{
+fill:#333366;
+stroke:#333366;
+}
+.e642darkcolor{
+fill:#333333;
+stroke:#333333;
+}
+.e643darkcolor{
+fill:#333300;
+stroke:#333300;
+}
+.e644darkcolor{
+fill:#330099;
+stroke:#330099;
+}
+.e645darkcolor{
+fill:#330066;
+stroke:#330066;
+}
+.e646darkcolor{
+fill:#330033;
+stroke:#330033;
+}
+.e647darkcolor{
+fill:#330000;
+stroke:#330000;
+}
+.e648darkcolor{
+fill:#009999;
+stroke:#009999;
+}
+.e649darkcolor{
+fill:#009966;
+stroke:#009966;
+}
+.e650darkcolor{
+fill:#009933;
+stroke:#009933;
+}
+.e651darkcolor{
+fill:#009900;
+stroke:#009900;
+}
+.e652darkcolor{
+fill:#006699;
+stroke:#006699;
+}
+.e653darkcolor{
+fill:#006666;
+stroke:#006666;
+}
+.e654darkcolor{
+fill:#006633;
+stroke:#006633;
+}
+.e655darkcolor{
+fill:#006600;
+stroke:#006600;
+}
+.e656darkcolor{
+fill:#003399;
+stroke:#003399;
+}
+.e657darkcolor{
+fill:#003366;
+stroke:#003366;
+}
+.e658darkcolor{
+fill:#003333;
+stroke:#003333;
+}
+.e659darkcolor{
+fill:#003300;
+stroke:#003300;
+}
+.e660darkcolor{
+fill:#000099;
+stroke:#000099;
+}
+.e661darkcolor{
+fill:#000066;
+stroke:#000066;
+}
+.e662darkcolor{
+fill:#000033;
+stroke:#000033;
+}
+.e663darkcolor{
+fill:#110000;
+stroke:#110000;
+}                    
+                  ]]></style>
+	</defs>
+	<defs>
+		<title>伏羲六十四卦方图。</title>
+		<desc>方图设计为一个viewBox为0 0 600 600 的正方形，以左上角为原点进形设计。</desc>
+		<desc>阴阳爻的ViewBox为长250高为25的长方型。阳爻矩形宽196高21，线粗4，方案看上去线粗不会占很大的空间。</desc>
+		<symbol id="e1_1" viewBox="0 0 200 25" preserveAspectRatio="none">
+			<title>阳爻符号</title>
+			<desc>一个长196宽21的方框作为阳爻，特别加上了为10的框线使其充满整个viewbox边框。以后可以更新该方框来使其变成其它形状</desc>
+			<!--适当的时候可用class="e1_style"代替 style="stroke-width:4"这个属性-->
+			<rect x="2" y="2" width="196" height="21" style="stroke-width:4"/>
+		</symbol>
+		<symbol id="e1_0" viewBox="0 0 200 25" preserveAspectRatio="none">
+			<title>阴爻符号</title>
+			<desc>两个71高，21高的矩形做成一个阴爻符号。</desc>
+			<rect x="2" y="2" width="71" height="21" style="stroke-width:4"/>
+			<rect x="127" y="2" width="71" height="21" style="stroke-width:4"/>
+		</symbol>
+		<symbol id="e2_0" viewBox="0 0 200 75">
+			<title>太阴符号</title>
+			<desc/>
+			<use x="0" y="0" height="25" width="200" xlink:href="#e1_0"/>
+			<use x="0" y="50" height="25" width="200" xlink:href="#e1_0"/>
+		</symbol>
+		<symbol id="e2_1" viewBox="0 0 200 75">
+			<title>少阳符号</title>
+			<use x="0" y="0" height="25" width="200" xlink:href="#e1_1"/>
+			<use x="0" y="50" height="25" width="200" xlink:href="#e1_0"/>
+		</symbol>
+		<symbol id="e2_2" viewBox="0 0 200 75">
+			<title>少阴符号</title>
+			<use x="0" y="0" height="25" width="200" xlink:href="#e1_0"/>
+			<use x="0" y="50" height="25" width="200" xlink:href="#e1_1"/>
+		</symbol>
+		<symbol id="e2_3" viewBox="0 0 200 75">
+			<title>太阳符号</title>
+			<use x="0" y="0" height="25" width="200" xlink:href="#e1_1"/>
+			<use x="0" y="50" height="25" width="200" xlink:href="#e1_1"/>
+		</symbol>
+		<desc>四象的ViewBox为长250高为125的长方型。</desc>
+		<symbol id="e3_0" viewBox="0 0 200 125">
+			<title>坤卦符号(Kun symbol)</title>
+			<use x="0" y="0" height="75" width="200" xlink:href="#e2_0"/>
+			<use x="0" y="100" height="25" width="200" xlink:href="#e1_0"/>
+		</symbol>
+		<symbol id="e3_1" viewBox="0 0 200 125">
+			<title>艮卦符号(Gen symbol)</title>
+			<use x="0" y="0" height="75" width="200" xlink:href="#e2_1"/>
+			<use x="0" y="100" height="25" width="200" xlink:href="#e1_0"/>
+		</symbol>
+		<symbol id="e3_2" viewBox="0 0 200 125">
+			<title>坎卦符号(Kan symbol)</title>
+			<use x="0" y="0" height="75" width="200" xlink:href="#e2_2"/>
+			<use x="0" y="100" height="25" width="200" xlink:href="#e1_0"/>
+		</symbol>
+		<symbol id="e3_3" viewBox="0 0 200 125">
+			<title>巽卦符号(Xun symbol)</title>
+			<use x="0" y="0" height="75" width="200" xlink:href="#e2_3"/>
+			<use x="0" y="100" height="25" width="200" xlink:href="#e1_0"/>
+		</symbol>
+		<symbol id="e3_4" viewBox="0 0 200 125">
+			<title>震卦符号(Zhen symbol)</title>
+			<use x="0" y="0" height="75" width="200" xlink:href="#e2_0"/>
+			<use x="0" y="100" height="25" width="200" xlink:href="#e1_1"/>
+		</symbol>
+		<symbol id="e3_5" viewBox="0 0 200 125">
+			<title>离卦符号(Li symbol)</title>
+			<use x="0" y="0" height="75" width="200" xlink:href="#e2_1"/>
+			<use x="0" y="100" height="25" width="200" xlink:href="#e1_1"/>
+		</symbol>
+		<symbol id="e3_6" viewBox="0 0 200 125">
+			<title>兑卦符号(Dui symbol)</title>
+			<use x="0" y="0" height="75" width="200" xlink:href="#e2_2"/>
+			<use x="0" y="100" height="25" width="200" xlink:href="#e1_1"/>
+		</symbol>
+		<symbol id="e3_7" viewBox="0 0 200 125">
+			<title>乾卦符号(Qian symbol)</title>
+			<use x="0" y="0" height="75" width="200" xlink:href="#e2_3"/>
+			<use x="0" y="100" height="25" width="200" xlink:href="#e1_1"/>
+		</symbol>
+		<desc>64卦符号的ViewBox为宽200高为275的长方型。</desc>
+		<symbol id="e6_0" viewBox="0 0 200 275">
+			<title>Hexgram for the receptive earth</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_0"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_0"/>
+		</symbol>
+		<symbol id="e6_1" viewBox="0 0 200 275">
+			<title>Hexgram for splitting apart</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_1"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_0"/>
+		</symbol>
+		<symbol id="e6_2" viewBox="0 0 200 275">
+			<title>Hexgram for holding together</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_2"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_0"/>
+		</symbol>
+		<symbol id="e6_3" viewBox="0 0 200 275">
+			<title>Hexgram for contemplationr</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_3"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_0"/>
+		</symbol>
+		<symbol id="e6_4" viewBox="0 0 200 275">
+			<title>Hexgram for enthusiasm</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_4"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_0"/>
+		</symbol>
+		<symbol id="e6_5" viewBox="0 0 200 275">
+			<title>Hexgram for progress</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_5"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_0"/>
+		</symbol>
+		<symbol id="e6_6" viewBox="0 0 200 275">
+			<title>Hexgram for gathering together</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_6"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_0"/>
+		</symbol>
+		<symbol id="e6_7" viewBox="0 0 200 275">
+			<title>Hexgram for gathering together</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_7"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_0"/>
+		</symbol>
+		<symbol id="e6_8" viewBox="0 0 200 275">
+			<title>Hexgram for modesty</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_0"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_1"/>
+		</symbol>
+		<symbol id="e6_9" viewBox="0 0 200 275">
+			<title>Hexgram for the keeping still mountain</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_1"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_1"/>
+		</symbol>
+		<symbol id="e6_10" viewBox="0 0 200 275">
+			<title>Hexgram for obstruction</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_2"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_1"/>
+		</symbol>
+		<symbol id="e6_11" viewBox="0 0 200 275">
+			<title>Hexgram for development</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_3"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_1"/>
+		</symbol>
+		<symbol id="e6_12" viewBox="0 0 200 275">
+			<title>Hexgram for small preponderance</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_4"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_1"/>
+		</symbol>
+		<symbol id="e6_13" viewBox="0 0 200 275">
+			<title>Hexgram for the wanderer</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_5"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_1"/>
+		</symbol>
+		<symbol id="e6_14" viewBox="0 0 200 275">
+			<title>Hexgram for influence</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_6"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_1"/>
+		</symbol>
+		<symbol id="e6_15" viewBox="0 0 200 275">
+			<title>Hexgram for retreat</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_7"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_1"/>
+		</symbol>
+		<symbol id="e6_16" viewBox="0 0 200 275">
+			<title>Hexgram for the army</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_0"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_2"/>
+		</symbol>
+		<symbol id="e6_17" viewBox="0 0 200 275">
+			<title>Hexgram for youthful folly</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_1"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_2"/>
+		</symbol>
+		<symbol id="e6_18" viewBox="0 0 200 275">
+			<title>Hexgram for the abysmal water</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_2"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_2"/>
+		</symbol>
+		<symbol id="e6_19" viewBox="0 0 200 275">
+			<title>Hexgram for dispersion</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_3"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_2"/>
+		</symbol>
+		<symbol id="e6_20" viewBox="0 0 200 275">
+			<title>Hexgram for dispersion</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_4"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_2"/>
+		</symbol>
+		<symbol id="e6_21" viewBox="0 0 200 275">
+			<title>Hexgram for before completion</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_5"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_2"/>
+		</symbol>
+		<symbol id="e6_22" viewBox="0 0 200 275">
+			<title>Hexgram for oppression</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_6"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_2"/>
+		</symbol>
+		<symbol id="e6_23" viewBox="0 0 200 275">
+			<title>Hexgram for conflict</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_7"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_2"/>
+		</symbol>
+		<symbol id="e6_24" viewBox="0 0 200 275">
+			<title>Hexgram for pushing upward</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_0"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_3"/>
+		</symbol>
+		<symbol id="e6_25" viewBox="0 0 200 275">
+			<title>Hexgram for work on the decayed</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_1"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_3"/>
+		</symbol>
+		<symbol id="e6_26" viewBox="0 0 200 275">
+			<title>Hexgram for work on the decayed</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_2"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_3"/>
+		</symbol>
+		<symbol id="e6_27" viewBox="0 0 200 275">
+			<title>Hexgram for the gentle wind</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_3"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_3"/>
+		</symbol>
+		<symbol id="e6_28" viewBox="0 0 200 275">
+			<title>Hexgram for duration</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_4"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_3"/>
+		</symbol>
+		<symbol id="e6_29" viewBox="0 0 200 275">
+			<title>Hexgram for the cauldron</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_5"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_3"/>
+		</symbol>
+		<symbol id="e6_30" viewBox="0 0 200 275">
+			<title>Hexgram for great preponderance</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_6"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_3"/>
+		</symbol>
+		<symbol id="e6_31" viewBox="0 0 200 275">
+			<title>Hexgram for coming to meet</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_7"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_3"/>
+		</symbol>
+		<symbol id="e6_32" viewBox="0 0 200 275">
+			<title>Hexgram for return</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_0"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_4"/>
+		</symbol>
+		<symbol id="e6_33" viewBox="0 0 200 275">
+			<title>Hexgram for mouth corners</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_1"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_4"/>
+		</symbol>
+		<symbol id="e6_34" viewBox="0 0 200 275">
+			<title>Hexgram for difficulty at the beginning</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_2"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_4"/>
+		</symbol>
+		<symbol id="e6_35" viewBox="0 0 200 275">
+			<title>Hexgram for increase</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_3"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_4"/>
+		</symbol>
+		<symbol id="e6_36" viewBox="0 0 200 275">
+			<title>Hexgram for the arousing thunder</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_4"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_4"/>
+		</symbol>
+		<symbol id="e6_37" viewBox="0 0 200 275">
+			<title>Hexgram for the arousing thunder</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_5"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_4"/>
+		</symbol>
+		<symbol id="e6_38" viewBox="0 0 200 275">
+			<title>Hexgram for following</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_6"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_4"/>
+		</symbol>
+		<symbol id="e6_39" viewBox="0 0 200 275">
+			<title>Hexgram for innocence</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_7"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_4"/>
+		</symbol>
+		<symbol id="e6_40" viewBox="0 0 200 275">
+			<title>Hexgram for darkening of the light</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_0"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_5"/>
+		</symbol>
+		<symbol id="e6_41" viewBox="0 0 200 275">
+			<title>Hexgram for grace</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_1"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_5"/>
+		</symbol>
+		<symbol id="e6_42" viewBox="0 0 200 275">
+			<title>Hexgram for after completion</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_2"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_5"/>
+		</symbol>
+		<symbol id="e6_43" viewBox="0 0 200 275">
+			<title>Hexgram for the family</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_3"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_5"/>
+		</symbol>
+		<symbol id="e6_44" viewBox="0 0 200 275">
+			<title>Hexgram for abundance</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_4"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_5"/>
+		</symbol>
+		<symbol id="e6_45" viewBox="0 0 200 275">
+			<title>Hexgram for the clinging fire</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_5"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_5"/>
+		</symbol>
+		<symbol id="e6_46" viewBox="0 0 200 275">
+			<title>Hexgram for revolution</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_6"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_5"/>
+		</symbol>
+		<symbol id="e6_47" viewBox="0 0 200 275">
+			<title>Hexgram for fellowship</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_7"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_5"/>
+		</symbol>
+		<symbol id="e6_48" viewBox="0 0 200 275">
+			<title>Hexgram for approach</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_0"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_6"/>
+		</symbol>
+		<symbol id="e6_49" viewBox="0 0 200 275">
+			<title>Hexgram for decrease</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_1"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_6"/>
+		</symbol>
+		<symbol id="e6_50" viewBox="0 0 200 275">
+			<title>Hexgram for decrease</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_2"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_6"/>
+		</symbol>
+		<symbol id="e6_51" viewBox="0 0 200 275">
+			<title>Hexgram for inner truth</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_3"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_6"/>
+		</symbol>
+		<symbol id="e6_52" viewBox="0 0 200 275">
+			<title>Hexgram for the marryin maiden</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_4"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_6"/>
+		</symbol>
+		<symbol id="e6_53" viewBox="0 0 200 275">
+			<title>Hexgram for opposition</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_5"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_6"/>
+		</symbol>
+		<symbol id="e6_54" viewBox="0 0 200 275">
+			<title>Hexgram for the joyous lake</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_6"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_6"/>
+		</symbol>
+		<symbol id="e6_55" viewBox="0 0 200 275">
+			<title>Hexgram for treading</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_7"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_6"/>
+		</symbol>
+		<symbol id="e6_56" viewBox="0 0 200 275">
+			<title>Hexgram for peace</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_0"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_7"/>
+		</symbol>
+		<symbol id="e6_57" viewBox="0 0 200 275">
+			<title>Hexgram for great taming</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_1"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_7"/>
+		</symbol>
+		<symbol id="e6_58" viewBox="0 0 200 275">
+			<title>Hexgram for waiting</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_2"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_7"/>
+		</symbol>
+		<symbol id="e6_59" viewBox="0 0 200 275">
+			<title>Hexgram for small taming</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_3"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_7"/>
+		</symbol>
+		<symbol id="e6_60" viewBox="0 0 200 275">
+			<title>Hexgram for great power</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_4"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_7"/>
+		</symbol>
+		<symbol id="e6_61" viewBox="0 0 200 275">
+			<title>Hexgram for great possession</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_5"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_7"/>
+		</symbol>
+		<symbol id="e6_62" viewBox="0 0 200 275">
+			<title>Hexgram for breakthrough</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_6"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_7"/>
+		</symbol>
+		<symbol id="e6_63" viewBox="0 0 200 275">
+			<title>Hexgram for the creative heaven</title>
+			<use x="0" y="0" height="125" width="200" xlink:href="#e3_7"/>
+			<use x="0" y="150" height="125" width="200" xlink:href="#e3_7"/>
+		</symbol>
+	</defs>
+	<!--将坐标原点定义到图片正中心-->
+	<g transform="translate(300 100)">
+		<!--用polyline画出图形的方格子(画法可参见http://www.skeeter-s.com/svg/polyline-tips.xhtml)-->
+		<!--亦可使用直线画出方格子-->
+		<g class="grid">
+			<polyline points="0,0 0,600"/>
+			<polyline points="75,0 75,600"/>
+			<polyline points="150,0 150,600"/>
+			<polyline points="225,0 225,600"/>
+			<polyline points="300,0 300,600"/>
+			<polyline points="375,0 375,600"/>
+			<polyline points="450,0 450,600"/>
+			<polyline points="525,0 525,600"/>
+			<polyline points="600,0 600,600"/>
+			<polyline points="0,0 600,0"/>
+			<polyline points="0,75 600,75"/>
+			<polyline points="0,150 600,150"/>
+			<polyline points="0,225 600,225"/>
+			<polyline points="0,300 600,300"/>
+			<polyline points="0,375 600,375"/>
+			<polyline points="0,450 600,450"/>
+			<polyline points="0,525 600,525"/>
+			<polyline points="0,600 600,600"/>
+		</g>
+		<g id="square">
+			<!--坤卦开始-->
+			<g id="le6_0" class="e60color" transform="translate(0 0)">
+				<text x="48" y="45" class="textFont">坤</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_0"/>
+			</g>
+			<g id="le6_1" class="e61color" transform="translate(75 0)">
+				<text x="48" y="45" class="textFont">剥</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_1"/>
+			</g>
+			<g id="le6_2" class="e62color" transform="translate(150 0)">
+				<text x="48" y="45" class="textFont">比</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_2"/>
+			</g>
+			<g id="le6_3" class="e63color" transform="translate(225)">
+				<text x="48" y="45" class="textFont">观</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_3"/>
+			</g>
+			<g id="le6_4" class="e64color" transform="translate(300)">
+				<text x="48" y="45" class="textFont">豫</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_4"/>
+			</g>
+			<g id="le6_5" class="e65color" transform="translate(375 0)">
+				<text x="48" y="45" class="textFont">晋</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_5"/>
+			</g>
+			<g id="le6_6" class="e66color" transform="translate(450 0)">
+				<text x="48" y="45" class="textFont">萃</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_6"/>
+			</g>
+			<g id="le6_7" class="e67color" transform="translate(525 0)">
+				<text x="48" y="45" class="textFont">否</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_7"/>
+			</g>
+			<g id="le6_8" class="e68color" transform="translate(0 75)">
+				<text x="48" y="45" class="textFont">谦</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_8"/>
+			</g>
+			<g id="le6_9" class="e69color" transform="translate(75 75)">
+				<text x="48" y="45" class="textFont">艮</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_9"/>
+			</g>
+			<g id="le6_10" class="e610color" transform="translate(150 75)">
+				<text x="48" y="45" class="textFont">蹇</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_10"/>
+			</g>
+			<g id="le6_11" class="e611color" transform="translate(225 75)">
+				<text x="48" y="45" class="textFont">渐</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_11"/>
+			</g>
+			<g id="le6_12" class="e612color" transform="translate(300 75)">
+				<text x="48" y="33" class="textFont">小</text>
+				<text x="48" y="57" class="textFont">过</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_12"/>
+			</g>
+			<g id="le6_13" class="e613color" transform=" translate(375 75)">
+				<text x="48" y="45" class="textFont">旅</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_13"/>
+			</g>
+			<g id="le6_14" class="e614color" transform=" translate(450 75)">
+				<text x="48" y="45" class="textFont">咸</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_14"/>
+			</g>
+			<g id="le6_15" class="e615color" transform="translate(525 75)">
+				<text x="48" y="45" class="textFont">遯</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_15"/>
+			</g>
+			<g id="le6_16" class="e616color" transform="translate(0 150)">
+				<text x="48" y="45" class="textFont">师</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_16"/>
+			</g>
+			<g id="le6_17" class="e617color" transform="translate(75 150)">
+				<text x="48" y="45" class="textFont">蒙</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_17"/>
+			</g>
+			<g id="le6_18" class="e618color" transform="translate(150 150)">
+				<text x="48" y="45" class="textFont">坎</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_18"/>
+			</g>
+			<g id="le6_19" class="e619color" transform="translate(225 150)">
+				<text x="48" y="45" class="textFont">涣</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_19"/>
+			</g>
+			<g id="le6_20" class="e620color" transform="translate(300 150)">
+				<text x="48" y="45" class="textFont">解</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_20"/>
+			</g>
+			<g id="le6_21" class="e621color" transform="translate(375 150)">
+				<text x="48" y="33" class="textFont">未</text>
+				<text x="48" y="57" class="textFont">济</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_21"/>
+			</g>
+			<g id="le6_22" class="e622color" transform="translate(450 150)">
+				<text x="48" y="45" class="textFont">困</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_22"/>
+			</g>
+			<g id="le6_23" class="e623color" transform="translate(525 150)">
+				<text x="48" y="45" class="textFont">讼</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_23"/>
+			</g>
+			<g id="le6_24" class="e624color" transform="translate(0 225)">
+				<text x="48" y="45" class="textFont">升</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_24"/>
+			</g>
+			<g id="le6_25" class="e625color" transform="translate(75 225)">
+				<text x="48" y="45" class="textFont">蛊</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_25"/>
+			</g>
+			<g id="le6_26" class="e626color" transform="translate(150 225)">
+				<text x="48" y="45" class="textFont">井</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_26"/>
+			</g>
+			<g id="le6_27" class="e627color" transform="translate(225 225)">
+				<text x="48" y="45" class="textFont">巽</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_27"/>
+			</g>
+			<g id="le6_28" class="e628color" transform="translate(300 225)">
+				<text x="48" y="45" class="textFont">恒</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_28"/>
+			</g>
+			<g id="le6_29" class="e629color" transform="translate(375 225)">
+				<text x="48" y="45" class="textFont">鼎</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_29"/>
+			</g>
+			<g id="le6_30" class="e630color" transform="translate(450 225)">
+				<text x="48" y="33" class="textFont">大</text>
+				<text x="48" y="57" class="textFont">过</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_30"/>
+			</g>
+			<g id="le6_31" class="e631color" transform="translate(525 225)">
+				<text x="48" y="45" class="textFont">姤</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_31"/>
+			</g>
+			<g id="le6_32" class="e632color" transform="translate(0 300)">
+				<text x="48" y="45" class="textFont">复</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_32"/>
+			</g>
+			<g id="le6_33" class="e633color" transform="translate(75 300)">
+				<text x="48" y="45" class="textFont">颐</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_33"/>
+			</g>
+			<g id="le6_34" class="e634color" transform="translate(150 300)">
+				<text x="48" y="45" class="textFont">屯</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_34"/>
+			</g>
+			<g id="le6_35" class="e635color" transform="translate(225 300)">
+				<text x="48" y="45" class="textFont">益</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_35"/>
+			</g>
+			<g id="le6_36" class="e636color" transform="translate(300 300)">
+				<text x="48" y="45" class="textFont">震</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_36"/>
+			</g>
+			<g id="le6_37" class="e637color" transform="translate(375 300)">
+				<text x="48" y="33" class="textFont">噬</text>
+				<text x="48" y="57" class="textFont">嗑</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_37"/>
+			</g>
+			<g id="le6_38" class="e638color" transform="translate(450 300)">
+				<text x="48" y="45" class="textFont">随</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_38"/>
+			</g>
+			<g id="le6_39" class="e639color" transform="translate(525 300)">
+				<text x="48" y="33" class="textFont">无</text>
+				<text x="48" y="57" class="textFont">妄</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_39"/>
+			</g>
+			<g id="le6_40" class="e640color" transform="translate(0 375)">
+				<text x="48" y="33" class="textFont">明</text>
+				<text x="48" y="57" class="textFont">夷</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_40"/>
+			</g>
+			<g id="le6_41" class="e641color" transform="translate(75 375)">
+				<text x="48" y="45" class="textFont">贲</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_41"/>
+			</g>
+			<g id="le6_42" class="e642color" transform="translate(150 375)">
+				<text x="48" y="33" class="textFont">既</text>
+				<text x="48" y="57" class="textFont">济</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_42"/>
+			</g>
+			<g id="le6_43" class="e643color" transform="translate(225 375)">
+				<text x="48" y="33" class="textFont">家</text>
+				<text x="48" y="57" class="textFont">人</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_43"/>
+			</g>
+			<g id="le6_44" class="e644color" transform="translate(300 375)">
+				<text x="48" y="45" class="textFont">丰</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_44"/>
+			</g>
+			<g id="le6_45" class="e645color" transform="translate(375 375)">
+				<text x="48" y="45" class="textFont">离</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_45"/>
+			</g>
+			<g id="le6_46" class="e646color" transform="translate(450 375)">
+				<text x="48" y="45" class="textFont">革</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_46"/>
+			</g>
+			<g id="le6_47" class="e647color" transform="translate(525 375)">
+				<text x="48" y="33" class="textFont">同</text>
+				<text x="48" y="57" class="textFont">人</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_47"/>
+			</g>
+			<g id="le6_48" class="e648color" transform="translate(0 450)">
+				<text x="48" y="45" class="textFont">临</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_48"/>
+			</g>
+			<g id="le6_49" class="e649color" transform="translate(75 450)">
+				<text x="48" y="45" class="textFont">损</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_49"/>
+			</g>
+			<g id="le6_50" class="e650color" transform="translate(150 450)">
+				<text x="48" y="45" class="textFont">节</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_50"/>
+			</g>
+			<g id="le6_51" class="e651color" transform="translate(225 450)">
+				<text x="48" y="33" class="textFont">中</text>
+				<text x="48" y="57" class="textFont">孚</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_51"/>
+			</g>
+			<g id="le6_52" class="e652color" transform="translate(300 450)">
+				<text x="48" y="33" class="textFont">归</text>
+				<text x="48" y="57" class="textFont">妹</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_52"/>
+			</g>
+			<g id="le6_53" class="e653color" transform="translate(375 450)">
+				<text x="48" y="45" class="textFont">睽</text>
+				<use x="6" y="10" width="40" height="53" xlink:href="#e6_53"/>
+			</g>
+			<g id="le6_54" class="e654color" transform="translate(450 450)">
+				<text x="48" y="45" class="textFont">兑</text>
+				<use x="6" y="10" width="40" height="54" xlink:href="#e6_54"/>
+			</g>
+			<g id="le6_55" class="e655color" transform="translate(525 450)">
+				<text x="48" y="45" class="textFont">履</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_55"/>
+			</g>
+			<g id="le6_56" class="e656color" transform="translate(0 525)">
+				<text x="48" y="45" class="textFont">泰</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_56"/>
+			</g>
+			<g id="le6_57" class="e657color" transform="translate(75 525)">
+				<text x="48" y="33" class="textFont">大</text>
+				<text x="48" y="57" class="textFont">畜</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_57"/>
+			</g>
+			<g id="le6_58" class="e658color" transform="translate(150 525)">
+				<text x="48" y="45" class="textFont">需</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_58"/>
+			</g>
+			<g id="le6_59" class="e659color" transform="translate(225 525)">
+				<text x="48" y="33" class="textFont">小</text>
+				<text x="48" y="57" class="textFont">畜</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_59"/>
+			</g>
+			<g id="le6_60" class="e660color" transform="translate(300 525)">
+				<text x="48" y="33" class="textFont">大</text>
+				<text x="48" y="57" class="textFont">壮</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_60"/>
+			</g>
+			<g id="le6_61" class="e661color" transform="translate(375 525)">
+				<text x="48" y="33" class="textFont">大</text>
+				<text x="48" y="57" class="textFont">有</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_61"/>
+			</g>
+			<g id="le6_62" class="e662color" transform="translate(450 525)">
+				<text x="48" y="45" class="textFont">夬</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_62"/>
+			</g>
+			<g id="le6_63" class="e663color" transform="translate(525 525)">
+				<text x="48" y="45" class="textFont">乾</text>
+				<use x="6" y="10" width="40" height="55" xlink:href="#e6_63"/>
+			</g>
+		</g>
+	</g>
+</svg>

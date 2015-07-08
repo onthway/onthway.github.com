@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet href="../../../../../../../../../dokuwiki/lib/styles/ee_he_luo.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="600" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!--标题和文档的描述-->
+	<title>易易SVG图之河图方案一（使用了样式表）</title>
+	<desc>完全原生的河图方案设计。</desc>
+	<!--该文档的元数据，描述图片相关信息和版权-->
+	<metadata>
+    
+  </metadata>
+	<!--定义两个小圆点-->
+	<defs>
+		<title>该方案以的河图详细设计参看设计代码。</title>
+		<desc>该方案使用了外部样式表。</desc>
+		<title>定义两个阳阳小园点，大小尺寸见设计代码。</title>
+		<symbol id="tip0" viewBox="0 0 20 20">
+			<circle cx="10" cy="10" r="8"/>
+		</symbol>
+		<symbol id="tip1" viewBox="0 0 20 20">
+			<circle cx="10" cy="10" r="8"/>
+		</symbol>
+
+<!--定义样式-->
+		<style type="text/css"><![CDATA[     
+#tip0{
+fill:white;
+stroke:black;
+stroke-width:4;
+}
+#tip1{
+fill:black;
+stroke:#333333;
+stroke-width:4;
+}
+.lineStyle{
+fill:none;
+stroke:black;
+stroke-width:2;
+}
+.lineStyle0{
+fill:none;
+stroke:black;
+stroke-width:2;
+}
+.lineStyle1{
+fill:none;
+stroke:black;
+stroke-width:4;
+}
+       ]]></style>
+
+	</defs>
+	<!--将坐标原点定义到图片正中心-->
+	<g transform="translate(300 300)">
+		<g id="center_0">
+			<line x1="-60" x2="60" class="lineStyle0"/>
+			<line y1="-60" y2="60" class="lineStyle0"/>
+			<use transform="translate(-10 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-70 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(50 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 -70)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 50)" width="20" height="20" xlink:href="#tip0"/>
+		</g>
+		<g id="bottom_0_1" transform="translate(0 240)">
+			<use transform="translate(-10 -10)" width="20" height="20" xlink:href="#tip0"/>
+		</g>
+		<g id="top_0_9" transform="translate(0 -240)">
+			<line x1="-160" x2="160" class="lineStyle0"/>
+			<use transform="translate(-170 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-130 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-90 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-50 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(30 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(70 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(110 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(150 -10)" width="20" height="20" xlink:href="#tip0"/>
+		</g>
+		<g id="left_0_3" transform="translate(-240 0)">
+			<line y1="-60" y2="60" class="lineStyle0"/>
+			<use transform="translate(-10 -70)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 50)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 -10)" width="20" height="20" xlink:href="#tip0"/>
+		</g>
+		<g id="right_0_7" transform="translate(240 0)">
+			<line y1="-150" y2="150" class="lineStyle0"/>
+			<use transform="translate(-10 -160)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 -110)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 -60)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 -10)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 40)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 90)" width="20" height="20" xlink:href="#tip0"/>
+			<use transform="translate(-10 140)" width="20" height="20" xlink:href="#tip0"/>
+		</g>
+		<g id="top_right2" transform="rotate(45) translate(0 -240)">
+			<line y1="-60" y2="60" class="lineStyle1"/>
+			<use transform="translate(-10 -70)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(-10 50)" width="20" height="20" xlink:href="#tip1"/>
+		</g>
+		<g id="top_left4" transform="rotate(-50) translate(0 -240)">
+			<rect x="-30" y="-60" width="60" height="120" class="lineStyle1"/>
+			<use transform="translate(-40 -70)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(-40 50)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(20 -70)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(20 50)" width="20" height="20" xlink:href="#tip1"/>
+		</g>
+		<g id="botom_left8" transform="rotate(225) translate(0 -240)">
+			<rect x="-30" y="-60" width="60" height="120" class="lineStyle1"/>
+			<use transform="translate(-40 -70)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(-40 -30)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(-40 10)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(-40 50)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(20 -70)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(20 -30)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(20 10)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(20 50)" width="20" height="20" xlink:href="#tip1"/>
+		</g>
+		<g id="botom_right6" transform="rotate(140) translate(0 -240)">
+			<rect x="-30" y="-60" width="60" height="120" class="lineStyle1"/>
+			<use transform="translate(-40 -70)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(-40 -10)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(-40 50)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(20 -70)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(20 -10)" width="20" height="20" xlink:href="#tip1"/>
+			<use transform="translate(20 50)" width="20" height="20" xlink:href="#tip1"/>
+		</g>
+	</g>
+</svg>

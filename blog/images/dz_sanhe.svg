@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet href="svg_dzcolor.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="600" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!--标题和文档的描述-->
+	<title>易易SVG图之地支六合图方案一</title>
+	<desc>该方案将子放在最下面并往逆时针转15度。这样所有合化为水平平行线。</desc>
+	<!--该文档的元数据，描述图片相关信息和版权-->
+	<metadata>
+		
+	</metadata>
+	<!--定义显示符号所用的style-->
+	<defs>
+		<!--定义样式-->
+		<style type="text/css"><![CDATA[           
+                         .shFont{               
+                         font-family:黑体;
+                         font-size:20px;
+                         fill:orange;
+                         stroke-width:1;
+                         stroke:black;                  
+                         }  
+                         .dzFont{               
+                         font-family:隶书,黑体;
+                         font-size:80px;
+                         fill:black;
+                         stroke-width:1;
+                         stroke:black;                  
+                         }                                   
+                                 
+                         .line{
+                         fill:black;
+                         stroke-width:6;
+                         stroke:orange;
+                         marker-start:url(#tip);
+                         marker-end:url(#tip);
+                         }     
+	     .dzCircle{
+                   stroke-width:6; 
+                   stroke:#666666; 
+                   fill:none;                           
+                   }
+	     circle{
+             stroke-width:10;   
+             fill:none;
+             stroke:#666666;                          
+             }
+        
+                         ]]></style>
+	</defs>
+	<defs>
+		<title>五行相生相相克图。</title>
+		<desc>设计原理：以图形中心为原点，按角度和距离摆放每个元素的确切位置。</desc>
+		<!--定义两个箭头-->
+		<marker id="tip" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="strokeWidth" markerWidth="4" markerHeight="3" orient="auto" fill="orange">
+			<circle cx="5" cy="5" r="3"  style="fill:orange;stroke-width:2;stroke:none"/>
+		</marker>
+
+		<symbol id="dz1" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">子</text>
+		</symbol>
+		<symbol id="dz2" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">丑</text>
+		</symbol>
+		<symbol id="dz3" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">寅</text>
+		</symbol>
+		<symbol id="dz4" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">卯</text>
+		</symbol>
+		<symbol id="dz5" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">辰</text>
+		</symbol>
+		<symbol id="dz6" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">巳</text>
+		</symbol>
+		<symbol id="dz7" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">午</text>
+		</symbol>
+		<symbol id="dz8" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">未</text>
+		</symbol>
+		<symbol id="dz9" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">申</text>
+		</symbol>
+		<symbol id="dz10" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">酉</text>
+		</symbol>
+		<symbol id="dz11" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">戌</text>
+		</symbol>
+		<symbol id="dz12" viewBox="0 0 100 100">
+			<circle cx="50" cy="50" r="45" class="dzCircle"/>
+			<text x="10" y="74" font-size="80" class="dzFont">亥</text>
+		</symbol>
+
+
+
+	<symbol id="dzCirlce">
+		<!--将坐标原点定义到图片正中心-->
+		<!--若要变以其它方位的圆图，改这里的rotate就行-->
+		<g transform="translate(300 300) rotate(180)">
+			<circle cx="0" cy="0" r="250"/>
+			<g id="ldz1" transform="translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz1"/>
+			</g>
+			<g id="ldz2" transform="rotate(30) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz2"/>
+			</g>
+			<g id="ldz3" transform="rotate(60) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz3"/>
+			</g>
+			<g id="ldz4" transform="rotate(90) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz4"/>
+			</g>
+			<g id="ldz5" transform="rotate(120) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz5"/>
+			</g>
+			<g id="ldz6" transform="rotate(150) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz6"/>
+			</g>
+			<g id="ldz7" transform="rotate(180) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz7"/>
+			</g>
+			<g id="ldz8" transform="rotate(210) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz8"/>
+			</g>
+			<g id="ldz9" transform="rotate(240) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz9"/>
+			</g>
+			<g id="ldz10" transform="rotate(270) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz10"/>
+			</g>
+			<g id="ldz11" transform="rotate(300) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz11"/>
+			</g>
+			<g id="ldz12" transform="rotate(330) translate(0 -200)">
+				<use x="-40" y="-40" width="80" height="80" xlink:href="#dz12"/>
+			</g>
+		</g>
+	</symbol>
+
+
+
+	</defs>
+	<!--将坐标原点定义到图片正中心-->
+	<g transform="translate(300 300)">
+		<use transform="rotate(-15)" x="-300" y="-300" width="600" height="600" xlink:href="#dzCirlce"/>
+	</g>
+	<g>
+		<line x1="108" y1="244" x2="442" y2="154" class="line"/>
+		<line x1="442" y1="154" x2="352" y2="494" class="line"/>
+		<line x1="352" y1="494" x2="108" y2="244" class="line"/>
+	</g>
+	<g transform="rotate(30 300 300)">
+		<line x1="108" y1="244" x2="442" y2="154" class="line"/>
+		<line x1="442" y1="154" x2="352" y2="494" class="line"/>
+		<line x1="352" y1="494" x2="108" y2="244" class="line"/>
+	</g>
+	<g transform="rotate(60 300 300)">
+		<line x1="108" y1="244" x2="442" y2="154" class="line"/>
+		<line x1="442" y1="154" x2="352" y2="494" class="line"/>
+		<line x1="352" y1="494" x2="108" y2="244" class="line"/>
+	</g>
+	<g transform="rotate(90 300 300)">
+		<line x1="108" y1="244" x2="442" y2="154" class="line"/>
+		<line x1="442" y1="154" x2="352" y2="494" class="line"/>
+		<line x1="352" y1="494" x2="108" y2="244" class="line"/>
+	</g>
+	<g>
+		<text x="240px" y="250" class="shFont">申子辰合水局</text>
+		<text x="240px" y="280" class="shFont">巳酉丑合金局</text>
+		<text x="240px" y="310" class="shFont">亥卯未合木局</text>
+		<text x="240px" y="340" class="shFont">寅午戌合火局</text>
+	</g>
+</svg>

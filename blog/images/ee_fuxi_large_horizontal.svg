@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml-stylesheet href="svg_eecolor.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1200" height="1200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<!--标题和文档的描述-->
+	<title>易易SVG图之伏羲六十四卦次序图（大横图）图方案一</title>
+	<desc>从太极生成各卦。该设计手段同小横图的手段是一样的</desc>
+	<!--该文档的元数据，描述图片相关信息和版权-->
+	<metadata>
+   
+  </metadata>
+	<!--文档中用到的字体样式-->
+	<defs>
+		<style type="text/css"><![CDATA[
+                                @font-face {
+                                  font-family: 'ee_sim_hei'; 
+                                  font-weight: normal;          
+                                  <!--src: url("ee_sim_hei.svg#ee_sim_hei") format(svg)-->
+                                }
+                                .textFont{
+                                font-family: 黑体,隶书; 
+                                font-weight:normal;
+                                font-size:30px;
+                                stroke:#666666;
+                                }    
+                                 .textSmallFont{
+                                font-family: 黑体,隶书; 
+                                font-weight:normal;
+                                font-size:15px;
+                                stroke:#666666;
+                                }  
+                                .box{
+                                stroke-width:10;
+                                stroke:red;
+                                fill:none;       
+                                }
+                                use{
+                                stroke-width:6
+                                }
+.e0color{
+fill:black;
+stroke:black;
+}
+.e10color{
+fill:#cccccc;
+stroke:#cccccc;
+}
+.e11color{
+fill:#333333;
+stroke:#333333;
+}
+.e20color{
+fill:#cccccc;
+stroke:#cccccc;
+}
+.e21color{
+fill:#999999;
+stroke:#999999;
+}
+.e22color{
+fill:#666666;
+stroke:#666666;
+}
+.e23color{
+fill:#333333;
+stroke:#333333;
+}
+.e30color{
+fill:#CCCCBB;
+stroke:#999988;
+}
+.e31color{
+fill:#CC6699;
+stroke:#993366;
+}
+.e32color{
+fill:#99CC66;
+stroke:#669933;
+}
+.e33color{
+fill:#996633;
+stroke:#663300;
+}
+.e34color{
+fill:#6699CC;
+stroke:#336699;
+}
+.e35color{
+fill:#663399;
+stroke:#330066;
+}
+.e36color{
+fill:#339966;
+stroke:#006633;
+}
+.e37color{
+fill:#443333;
+stroke:#110000;
+}
+.e60color{
+fill:#CCCCBB;
+stroke:#999988;
+}
+.e61color{
+fill:#CCCC99;
+stroke:#999966;
+}
+.e62color{
+fill:#CCCC66;
+stroke:#999933;
+}
+.e63color{
+fill:#CCCC33;
+stroke:#999900;
+}
+.e64color{
+fill:#CC99CC;
+stroke:#996699;
+}
+.e65color{
+fill:#CC9999;
+stroke:#996666;
+}
+.e66color{
+fill:#CC9966;
+stroke:#996633;
+}
+.e67color{
+fill:#CC9933;
+stroke:#996600;
+}
+.e68color{
+fill:#CC66CC;
+stroke:#993399;
+}
+.e69color{
+fill:#CC6699;
+stroke:#993366;
+}
+.e610color{
+fill:#CC6666;
+stroke:#993333;
+}
+.e611color{
+fill:#CC6633;
+stroke:#993300;
+}
+.e612color{
+fill:#CC33CC;
+stroke:#990099;
+}
+.e613color{
+fill:#CC3399;
+stroke:#990066;
+}
+.e614color{
+fill:#CC3366;
+stroke:#990033;
+}
+.e615color{
+fill:#CC3333;
+stroke:#990000;
+}
+.e616color{
+fill:#99CCCC;
+stroke:#669999;
+}
+.e617color{
+fill:#99CC99;
+stroke:#669966;
+}
+.e618color{
+fill:#99CC66;
+stroke:#669933;
+}
+.e619color{
+fill:#99CC33;
+stroke:#669900;
+}
+.e620color{
+fill:#9999CC;
+stroke:#666699;
+}
+.e621color{
+fill:#999999;
+stroke:#666666;
+}
+.e622color{
+fill:#999966;
+stroke:#666633;
+}
+.e623color{
+fill:#999933;
+stroke:#666600;
+}
+.e624color{
+fill:#9966CC;
+stroke:#663399;
+}
+.e625color{
+fill:#996699;
+stroke:#663366;
+}
+.e626color{
+fill:#996666;
+stroke:#663333;
+}
+.e627color{
+fill:#996633;
+stroke:#663300;
+}
+.e628color{
+fill:#9933CC;
+stroke:#660099;
+}
+.e629color{
+fill:#993399;
+stroke:#660066;
+}
+.e630color{
+fill:#993366;
+stroke:#660033;
+}
+.e631color{
+fill:#993333;
+stroke:#660000;
+}
+.e632color{
+fill:#66CCCC;
+stroke:#339999;
+}
+.e633color{
+fill:#66CC99;
+stroke:#339966;
+}
+.e634color{
+fill:#66CC66;
+stroke:#339933;
+}
+.e635color{
+fill:#66CC33;
+stroke:#339900;
+}
+.e636color{
+fill:#6699CC;
+stroke:#336699;
+}
+.e637color{
+fill:#669999;
+stroke:#336666;
+}
+.e638color{
+fill:#669966;
+stroke:#336633;
+}
+.e639color{
+fill:#669933;
+stroke:#336600;
+}
+.e640color{
+fill:#6666CC;
+stroke:#333399;
+}
+.e641color{
+fill:#666699;
+stroke:#333366;
+}
+.e642color{
+fill:#666666;
+stroke:#333333;
+}
+.e643color{
+fill:#666633;
+stroke:#333300;
+}
+.e644color{
+fill:#6633CC;
+stroke:#330099;
+}
+.e645color{
+fill:#663399;
+stroke:#330066;
+}
+.e646color{
+fill:#663366;
+stroke:#330033;
+}
+.e647color{
+fill:#663333;
+stroke:#330000;
+}
+.e648color{
+fill:#33CCCC;
+stroke:#009999;
+}
+.e649color{
+fill:#33CC99;
+stroke:#009966;
+}
+.e650color{
+fill:#33CC66;
+stroke:#009933;
+}
+.e651color{
+fill:#33CC33;
+stroke:#009900;
+}
+.e652color{
+fill:#3399CC;
+stroke:#006699;
+}
+.e653color{
+fill:#339999;
+stroke:#006666;
+}
+.e654color{
+fill:#339966;
+stroke:#006633;
+}
+.e655color{
+fill:#339933;
+stroke:#006600;
+}
+.e656color{
+fill:#3366CC;
+stroke:#003399;
+}
+.e657color{
+fill:#336699;
+stroke:#003366;
+}
+.e658color{
+fill:#336666;
+stroke:#003333;
+}
+.e659color{
+fill:#336633;
+stroke:#003300;
+}
+.e660color{
+fill:#3333CC;
+stroke:#000099;
+}
+.e661color{
+fill:#333399;
+stroke:#000066;
+}
+.e662color{
+fill:#333366;
+stroke:#000033;
+}
+.e663color{
+fill:#443333;
+stroke:#110000;
+}
+.e30palecolor{
+fill:#FFFFBB;
+stroke:#FFFFBB;
+}
+.e31palecolor{
+fill:#FF99CC;
+stroke:#FF99CC;
+}
+.e32palecolor{
+fill:#CCFF99;
+stroke:#CCFF99;
+}
+.e33palecolor{
+fill:#CC9966;
+stroke:#CC9966;
+}
+.e34palecolor{
+fill:#99CCFF;
+stroke:#99CCFF;
+}
+.e35palecolor{
+fill:#9966CC;
+stroke:#9966CC;
+}
+.e36palecolor{
+fill:#66CC99;
+stroke:#66CC99;
+}
+.e37palecolor{
+fill:#446666;
+stroke:#446666;
+}
+.e60palecolor{
+fill:#FFFFBB;
+stroke:#FFFFBB;
+}
+.e61palecolor{
+fill:#FFFFCC;
+stroke:#FFFFCC;
+}
+.e62palecolor{
+fill:#FFFF99;
+stroke:#FFFF99;
+}
+.e63palecolor{
+fill:#FFFF66;
+stroke:#FFFF66;
+}
+.e64palecolor{
+fill:#FFCCFF;
+stroke:#FFCCFF;
+}
+.e65palecolor{
+fill:#FFCCCC;
+stroke:#FFCCCC;
+}
+.e66palecolor{
+fill:#FFCC99;
+stroke:#FFCC99;
+}
+.e67palecolor{
+fill:#FFCC66;
+stroke:#FFCC66;
+}
+.e68palecolor{
+fill:#FF99FF;
+stroke:#FF99FF;
+}
+.e69palecolor{
+fill:#FF99CC;
+stroke:#FF99CC;
+}
+.e610palecolor{
+fill:#FF9999;
+stroke:#FF9999;
+}
+.e611palecolor{
+fill:#FF9966;
+stroke:#FF9966;
+}
+.e612palecolor{
+fill:#FF66FF;
+stroke:#FF66FF;
+}
+.e613palecolor{
+fill:#FF66CC;
+stroke:#FF66CC;
+}
+.e614palecolor{
+fill:#FF6699;
+stroke:#FF6699;
+}
+.e615palecolor{
+fill:#FF6666;
+stroke:#FF6666;
+}
+.e616palecolor{
+fill:#CCFFFF;
+stroke:#CCFFFF;
+}
+.e617palecolor{
+fill:#CCFFCC;
+stroke:#CCFFCC;
+}
+.e618palecolor{
+fill:#CCFF99;
+stroke:#CCFF99;
+}
+.e619palecolor{
+fill:#CCFF66;
+stroke:#CCFF66;
+}
+.e620palecolor{
+fill:#CCCCFF;
+stroke:#CCCCFF;
+}
+.e621palecolor{
+fill:#CCCCCC;
+stroke:#CCCCCC;
+}
+.e622palecolor{
+fill:#CCCC99;
+stroke:#CCCC99;
+}
+.e623palecolor{
+fill:#CCCC66;
+stroke:#CCCC66;
+}
+.e624palecolor{
+fill:#CC99FF;
+stroke:#CC99FF;
+}
+.e625palecolor{
+fill:#CC99CC;
+stroke:#CC99CC;
+}
+.e626palecolor{
+fill:#CC9999;
+stroke:#CC9999;
+}
+.e627palecolor{
+fill:#CC9966;
+stroke:#CC9966;
+}
+.e628palecolor{
+fill:#CC66FF;
+stroke:#CC66FF;
+}
+.e629palecolor{
+fill:#CC66CC;
+stroke:#CC66CC;
+}
+.e630palecolor{
+fill:#CC6699;
+stroke:#CC6699;
+}
+.e631palecolor{
+fill:#CC6666;
+stroke:#CC6666;
+}
+.e632palecolor{
+fill:#99FFFF;
+stroke:#99FFFF;
+}
+.e633palecolor{
+fill:#99FFCC;
+stroke:#99FFCC;
+}
+.e634palecolor{
+fill:#99FF99;
+stroke:#99FF99;
+}
+.e635palecolor{
+fill:#99FF66;
+stroke:#99FF66;
+}
+.e636palecolor{
+fill:#99CCFF;
+stroke:#99CCFF;
+}
+.e637palecolor{
+fill:#99CCCC;
+stroke:#99CCCC;
+}
+.e638palecolor{
+fill:#99CC99;
+stroke:#99CC99;
+}
+.e639palecolor{
+fill:#99CC66;
+stroke:#99CC66;
+}
+.e640palecolor{
+fill:#9999FF;
+stroke:#9999FF;
+}
+.e641palecolor{
+fill:#9999CC;
+stroke:#9999CC;
+}
+.e642palecolor{
+fill:#999999;
+stroke:#999999;
+}
+.e643palecolor{
+fill:#999966;
+stroke:#999966;
+}
+.e644palecolor{
+fill:#9966FF;
+stroke:#9966FF;
+}
+.e645palecolor{
+fill:#9966CC;
+stroke:#9966CC;
+}
+.e646palecolor{
+fill:#996699;
+stroke:#996699;
+}
+.e647palecolor{
+fill:#996666;
+stroke:#996666;
+}
+.e648palecolor{
+fill:#66FFFF;
+stroke:#66FFFF;
+}
+.e649palecolor{
+fill:#66FFCC;
+stroke:#66FFCC;
+}
+.e650palecolor{
+fill:#66FF99;
+stroke:#66FF99;
+}
+.e651palecolor{
+fill:#66FF66;
+stroke:#66FF66;
+}
+.e652palecolor{
+fill:#66CCFF;
+stroke:#66CCFF;
+}
+.e653palecolor{
+fill:#66CCCC;
+stroke:#66CCCC;
+}
+.e654palecolor{
+fill:#66CC99;
+stroke:#66CC99;
+}
+.e655palecolor{
+fill:#66CC66;
+stroke:#66CC66;
+}
+.e656palecolor{
+fill:#6699FF;
+stroke:#6699FF;
+}
+.e657palecolor{
+fill:#6699CC;
+stroke:#6699CC;
+}
+.e658palecolor{
+fill:#669999;
+stroke:#669999;
+}
+.e659palecolor{
+fill:#669966;
+stroke:#669966;
+}
+.e660palecolor{
+fill:#6666FF;
+stroke:#6666FF;
+}
+.e661palecolor{
+fill:#6666CC;
+stroke:#6666CC;
+}
+.e662palecolor{
+fill:#666699;
+stroke:#666699;
+}
+.e663palecolor{
+fill:#776666;
+stroke:#776666;
+}
+.e30darkcolor{
+fill:#999988;
+stroke:#999988;
+}
+.e31darkcolor{
+fill:#993366;
+stroke:#993366;
+}
+.e32darkcolor{
+fill:#669933;
+stroke:#669933;
+}
+.e33darkcolor{
+fill:#663300;
+stroke:#663300;
+}
+.e34darkcolor{
+fill:#336699;
+stroke:#336699;
+}
+.e35darkcolor{
+fill:#330066;
+stroke:#330066;
+}
+.e36darkcolor{
+fill:#006633;
+stroke:#006633;
+}
+.e37darkcolor{
+fill:#110000;
+stroke:#110000;
+}
+.e60darkcolor{
+fill:#999988;
+stroke:#999988;
+}
+.e61darkcolor{
+fill:#999966;
+stroke:#999966;
+}
+.e62darkcolor{
+fill:#999933;
+stroke:#999933;
+}
+.e63darkcolor{
+fill:#999900;
+stroke:#999900;
+}
+.e64darkcolor{
+fill:#996699;
+stroke:#996699;
+}
+.e65darkcolor{
+fill:#996666;
+stroke:#996666;
+}
+.e66darkcolor{
+fill:#996633;
+stroke:#996633;
+}
+.e67darkcolor{
+fill:#996600;
+stroke:#996600;
+}
+.e68darkcolor{
+fill:#993399;
+stroke:#993399;
+}
+.e69darkcolor{
+fill:#993366;
+stroke:#993366;
+}
+.e610darkcolor{
+fill:#993333;
+stroke:#993333;
+}
+.e611darkcolor{
+fill:#993300;
+stroke:#993300;
+}
+.e612darkcolor{
+fill:#990099;
+stroke:#990099;
+}
+.e613darkcolor{
+fill:#990066;
+stroke:#990066;
+}
+.e614darkcolor{
+fill:#990033;
+stroke:#990033;
+}
+.e615darkcolor{
+fill:#990000;
+stroke:#990000;
+}
+.e616darkcolor{
+fill:#669999;
+stroke:#669999;
+}
+.e617darkcolor{
+fill:#669966;
+stroke:#669966;
+}
+.e618darkcolor{
+fill:#669933;
+stroke:#669933;
+}
+.e619darkcolor{
+fill:#669900;
+stroke:#669900;
+}
+.e620darkcolor{
+fill:#666699;
+stroke:#666699;
+}
+.e621darkcolor{
+fill:#666666;
+stroke:#666666;
+}
+.e622darkcolor{
+fill:#666633;
+stroke:#666633;
+}
+.e623darkcolor{
+fill:#666600;
+stroke:#666600;
+}
+.e624darkcolor{
+fill:#663399;
+stroke:#663399;
+}
+.e625darkcolor{
+fill:#663366;
+stroke:#663366;
+}
+.e626darkcolor{
+fill:#663333;
+stroke:#663333;
+}
+.e627darkcolor{
+fill:#663300;
+stroke:#663300;
+}
+.e628darkcolor{
+fill:#660099;
+stroke:#660099;
+}
+.e629darkcolor{
+fill:#660066;
+stroke:#660066;
+}
+.e630darkcolor{
+fill:#660033;
+stroke:#660033;
+}
+.e631darkcolor{
+fill:#660000;
+stroke:#660000;
+}
+.e632darkcolor{
+fill:#339999;
+stroke:#339999;
+}
+.e633darkcolor{
+fill:#339966;
+stroke:#339966;
+}
+.e634darkcolor{
+fill:#339933;
+stroke:#339933;
+}
+.e635darkcolor{
+fill:#339900;
+stroke:#339900;
+}
+.e636darkcolor{
+fill:#336699;
+stroke:#336699;
+}
+.e637darkcolor{
+fill:#336666;
+stroke:#336666;
+}
+.e638darkcolor{
+fill:#336633;
+stroke:#336633;
+}
+.e639darkcolor{
+fill:#336600;
+stroke:#336600;
+}
+.e640darkcolor{
+fill:#333399;
+stroke:#333399;
+}
+.e641darkcolor{
+fill:#333366;
+stroke:#333366;
+}
+.e642darkcolor{
+fill:#333333;
+stroke:#333333;
+}
+.e643darkcolor{
+fill:#333300;
+stroke:#333300;
+}
+.e644darkcolor{
+fill:#330099;
+stroke:#330099;
+}
+.e645darkcolor{
+fill:#330066;
+stroke:#330066;
+}
+.e646darkcolor{
+fill:#330033;
+stroke:#330033;
+}
+.e647darkcolor{
+fill:#330000;
+stroke:#330000;
+}
+.e648darkcolor{
+fill:#009999;
+stroke:#009999;
+}
+.e649darkcolor{
+fill:#009966;
+stroke:#009966;
+}
+.e650darkcolor{
+fill:#009933;
+stroke:#009933;
+}
+.e651darkcolor{
+fill:#009900;
+stroke:#009900;
+}
+.e652darkcolor{
+fill:#006699;
+stroke:#006699;
+}
+.e653darkcolor{
+fill:#006666;
+stroke:#006666;
+}
+.e654darkcolor{
+fill:#006633;
+stroke:#006633;
+}
+.e655darkcolor{
+fill:#006600;
+stroke:#006600;
+}
+.e656darkcolor{
+fill:#003399;
+stroke:#003399;
+}
+.e657darkcolor{
+fill:#003366;
+stroke:#003366;
+}
+.e658darkcolor{
+fill:#003333;
+stroke:#003333;
+}
+.e659darkcolor{
+fill:#003300;
+stroke:#003300;
+}
+.e660darkcolor{
+fill:#000099;
+stroke:#000099;
+}
+.e661darkcolor{
+fill:#000066;
+stroke:#000066;
+}
+.e662darkcolor{
+fill:#000033;
+stroke:#000033;
+}
+.e663darkcolor{
+fill:#110000;
+stroke:#110000;
+}
+                              ]]></style>
+		<symbol id="e0" preserveAspectRatio="none">
+			<rect x="0" y="0" width="1200" height="1200"/>
+		</symbol>
+	</defs>
+	<!--将坐标原点定义到图片的左下角-->
+	<!--不带下划线的命名完全是为了能在现有浏览器上使用样式表，原名e1_0，现去掉下划线能让其使用不带下划线的样式-->
+	<rect width="1200" height="1200" class="box"/>
+	<g transform="translate(120 400)">
+		<use x="0" y="-40" width="960" height="40" xlink:href="#e0" class="e0color"/>
+		<text x="450" y="-10" class="textFont">太极</text>
+		<g id="e1" transform="translate(0 -80)">
+			<use x="0" width="480" height="40" class="e10color" xlink:href="#e0"/>
+			<use x="480" width="480" height="40" class="e11color" xlink:href="#e0"/>
+			<text x="225" y="30" class="textFont">阴</text>
+			<text x="765" y="30" class="textFont">阳</text>
+		</g>
+		<g id="e2" transform="translate(0 -120)">
+			<use x="0" width="240" height="40" class="e20color" xlink:href="#e0"/>
+			<use x="240" width="240" height="40" class="e21color" xlink:href="#e0"/>
+			<use x="480" width="240" height="40" class="e22color" xlink:href="#e0"/>
+			<use x="720" width="240" height="40" class="e23color" xlink:href="#e0"/>
+			<text x="90" y="30" class="textFont">太阴</text>
+			<text x="330" y="30" class="textFont">少阳</text>
+			<text x="570" y="30" class="textFont">少阴</text>
+			<text x="810" y="30" class="textFont">太阳</text>
+		</g>
+		<g id="e3" transform="translate(0 -160)">
+			<use x="0" width="120" height="40" class="e30color" xlink:href="#e0"/>
+			<use x="120" width="120" height="40" class="e31color" xlink:href="#e0"/>
+			<use x="240" width="120" height="40" class="e32color" xlink:href="#e0"/>
+			<use x="360" width="120" height="40" class="e33color" xlink:href="#e0"/>
+			<use x="480" width="120" height="40" class="e34color" xlink:href="#e0"/>
+			<use x="600" width="120" height="40" class="e35color" xlink:href="#e0"/>
+			<use x="720" width="120" height="40" class="e36color" xlink:href="#e0"/>
+			<use x="840" width="120" height="40" class="e37color" xlink:href="#e0"/>
+			<text x="45" y="30" class="textFont">坤</text>
+			<text x="165" y="30" class="textFont">艮</text>
+			<text x="285" y="30" class="textFont">坎</text>
+			<text x="405" y="30" class="textFont">巽</text>
+			<text x="525" y="30" class="textFont">震</text>
+			<text x="645" y="30" class="textFont">离</text>
+			<text x="765" y="30" class="textFont">兑</text>
+			<text x="885" y="30" class="textFont">乾</text>
+		</g>
+		<g id="e4" transform="translate(0 -200)">
+			<use x="0" width="60" height="40" class="e61color" xlink:href="#e0"/>
+			<use x="60" width="60" height="40" class="e65color" xlink:href="#e0"/>
+			<use x="120" width="60" height="40" class="e69color" xlink:href="#e0"/>
+			<use x="180" width="60" height="40" class="e613color" xlink:href="#e0"/>
+			<use x="240" width="60" height="40" class="e617color" xlink:href="#e0"/>
+			<use x="300" width="60" height="40" class="e621color" xlink:href="#e0"/>
+			<use x="360" width="60" height="40" class="e625color" xlink:href="#e0"/>
+			<use x="420" width="60" height="40" class="e629color" xlink:href="#e0"/>
+			<use x="480" width="60" height="40" class="e633color" xlink:href="#e0"/>
+			<use x="540" width="60" height="40" class="e637color" xlink:href="#e0"/>
+			<use x="600" width="60" height="40" class="e641color" xlink:href="#e0"/>
+			<use x="660" width="60" height="40" class="e645color" xlink:href="#e0"/>
+			<use x="720" width="60" height="40" class="e649color" xlink:href="#e0"/>
+			<use x="780" width="60" height="40" class="e653color" xlink:href="#e0"/>
+			<use x="840" width="60" height="40" class="e657color" xlink:href="#e0"/>
+			<use x="900" width="60" height="40" class="e661color" xlink:href="#e0"/>
+		</g>
+		<g id="e5" transform="translate(0 -240)">
+			<use x="0" width="30" height="40" class="e60color" xlink:href="#e0"/>
+			<use x="30" width="30" height="40" class="e62color" xlink:href="#e0"/>
+			<use x="60" width="30" height="40" class="e64color" xlink:href="#e0"/>
+			<use x="90" width="30" height="40" class="e66color" xlink:href="#e0"/>
+			<use x="120" width="30" height="40" class="e68color" xlink:href="#e0"/>
+			<use x="150" width="30" height="40" class="e610color" xlink:href="#e0"/>
+			<use x="180" width="30" height="40" class="e612color" xlink:href="#e0"/>
+			<use x="210" width="30" height="40" class="e614color" xlink:href="#e0"/>
+			<use x="240" width="30" height="40" class="e616color" xlink:href="#e0"/>
+			<use x="270" width="30" height="40" class="e618color" xlink:href="#e0"/>
+			<use x="300" width="30" height="40" class="e620color" xlink:href="#e0"/>
+			<use x="330" width="30" height="40" class="e622color" xlink:href="#e0"/>
+			<use x="360" width="30" height="40" class="e624color" xlink:href="#e0"/>
+			<use x="390" width="30" height="40" class="e626color" xlink:href="#e0"/>
+			<use x="420" width="30" height="40" class="e628color" xlink:href="#e0"/>
+			<use x="450" width="30" height="40" class="e630color" xlink:href="#e0"/>
+			<use x="480" width="30" height="40" class="e632color" xlink:href="#e0"/>
+			<use x="510" width="30" height="40" class="e634color" xlink:href="#e0"/>
+			<use x="540" width="30" height="40" class="e636color" xlink:href="#e0"/>
+			<use x="570" width="30" height="40" class="e638color" xlink:href="#e0"/>
+			<use x="600" width="30" height="40" class="e640color" xlink:href="#e0"/>
+			<use x="630" width="30" height="40" class="e642color" xlink:href="#e0"/>
+			<use x="660" width="30" height="40" class="e644color" xlink:href="#e0"/>
+			<use x="690" width="30" height="40" class="e646color" xlink:href="#e0"/>
+			<use x="720" width="30" height="40" class="e648color" xlink:href="#e0"/>
+			<use x="750" width="30" height="40" class="e650color" xlink:href="#e0"/>
+			<use x="780" width="30" height="40" class="e652color" xlink:href="#e0"/>
+			<use x="810" width="30" height="40" class="e654color" xlink:href="#e0"/>
+			<use x="840" width="30" height="40" class="e656color" xlink:href="#e0"/>
+			<use x="870" width="30" height="40" class="e658color" xlink:href="#e0"/>
+			<use x="900" width="30" height="40" class="e660color" xlink:href="#e0"/>
+			<use x="930" width="30" height="40" class="e662color" xlink:href="#e0"/>
+		</g>
+		<g id="e6" transform="translate(0 -280)">
+			<use x="0" width="15" height="40" class="e60color" xlink:href="#e0"/>
+			<use x="15" width="15" height="40" class="e61color" xlink:href="#e0"/>
+			<use x="30" width="15" height="40" class="e62color" xlink:href="#e0"/>
+			<use x="45" width="15" height="40" class="e63color" xlink:href="#e0"/>
+			<use x="60" width="15" height="40" class="e64color" xlink:href="#e0"/>
+			<use x="75" width="15" height="40" class="e65color" xlink:href="#e0"/>
+			<use x="90" width="15" height="40" class="e66color" xlink:href="#e0"/>
+			<use x="105" width="15" height="40" class="e67color" xlink:href="#e0"/>
+			<use x="120" width="15" height="40" class="e68color" xlink:href="#e0"/>
+			<use x="135" width="15" height="40" class="e69color" xlink:href="#e0"/>
+			<use x="150" width="15" height="40" class="e610color" xlink:href="#e0"/>
+			<use x="165" width="15" height="40" class="e611color" xlink:href="#e0"/>
+			<use x="180" width="15" height="40" class="e612color" xlink:href="#e0"/>
+			<use x="195" width="15" height="40" class="e613color" xlink:href="#e0"/>
+			<use x="210" width="15" height="40" class="e614color" xlink:href="#e0"/>
+			<use x="225" width="15" height="40" class="e615color" xlink:href="#e0"/>
+			<use x="240" width="15" height="40" class="e616color" xlink:href="#e0"/>
+			<use x="255" width="15" height="40" class="e617color" xlink:href="#e0"/>
+			<use x="270" width="15" height="40" class="e618color" xlink:href="#e0"/>
+			<use x="285" width="15" height="40" class="e619color" xlink:href="#e0"/>
+			<use x="300" width="15" height="40" class="e620color" xlink:href="#e0"/>
+			<use x="315" width="15" height="40" class="e621color" xlink:href="#e0"/>
+			<use x="330" width="15" height="40" class="e622color" xlink:href="#e0"/>
+			<use x="345" width="15" height="40" class="e623color" xlink:href="#e0"/>
+			<use x="360" width="15" height="40" class="e624color" xlink:href="#e0"/>
+			<use x="375" width="15" height="40" class="e625color" xlink:href="#e0"/>
+			<use x="390" width="15" height="40" class="e626color" xlink:href="#e0"/>
+			<use x="405" width="15" height="40" class="e627color" xlink:href="#e0"/>
+			<use x="420" width="15" height="40" class="e628color" xlink:href="#e0"/>
+			<use x="435" width="15" height="40" class="e629color" xlink:href="#e0"/>
+			<use x="450" width="15" height="40" class="e630color" xlink:href="#e0"/>
+			<use x="465" width="15" height="40" class="e631color" xlink:href="#e0"/>
+			<use x="480" width="15" height="40" class="e632color" xlink:href="#e0"/>
+			<use x="495" width="15" height="40" class="e633color" xlink:href="#e0"/>
+			<use x="510" width="15" height="40" class="e634color" xlink:href="#e0"/>
+			<use x="525" width="15" height="40" class="e635color" xlink:href="#e0"/>
+			<use x="540" width="15" height="40" class="e636color" xlink:href="#e0"/>
+			<use x="555" width="15" height="40" class="e637color" xlink:href="#e0"/>
+			<use x="570" width="15" height="40" class="e638color" xlink:href="#e0"/>
+			<use x="585" width="15" height="40" class="e639color" xlink:href="#e0"/>
+			<use x="600" width="15" height="40" class="e640color" xlink:href="#e0"/>
+			<use x="615" width="15" height="40" class="e641color" xlink:href="#e0"/>
+			<use x="630" width="15" height="40" class="e642color" xlink:href="#e0"/>
+			<use x="645" width="15" height="40" class="e643color" xlink:href="#e0"/>
+			<use x="660" width="15" height="40" class="e644color" xlink:href="#e0"/>
+			<use x="675" width="15" height="40" class="e645color" xlink:href="#e0"/>
+			<use x="690" width="15" height="40" class="e646color" xlink:href="#e0"/>
+			<use x="705" width="15" height="40" class="e647color" xlink:href="#e0"/>
+			<use x="720" width="15" height="40" class="e648color" xlink:href="#e0"/>
+			<use x="735" width="15" height="40" class="e649color" xlink:href="#e0"/>
+			<use x="750" width="15" height="40" class="e650color" xlink:href="#e0"/>
+			<use x="765" width="15" height="40" class="e651color" xlink:href="#e0"/>
+			<use x="780" width="15" height="40" class="e652color" xlink:href="#e0"/>
+			<use x="795" width="15" height="40" class="e653color" xlink:href="#e0"/>
+			<use x="810" width="15" height="40" class="e654color" xlink:href="#e0"/>
+			<use x="825" width="15" height="40" class="e655color" xlink:href="#e0"/>
+			<use x="840" width="15" height="40" class="e656color" xlink:href="#e0"/>
+			<use x="855" width="15" height="40" class="e657color" xlink:href="#e0"/>
+			<use x="870" width="15" height="40" class="e658color" xlink:href="#e0"/>
+			<use x="885" width="15" height="40" class="e659color" xlink:href="#e0"/>
+			<use x="900" width="15" height="40" class="e660color" xlink:href="#e0"/>
+			<use x="915" width="15" height="40" class="e661color" xlink:href="#e0"/>
+			<use x="930" width="15" height="40" class="e662color" xlink:href="#e0"/>
+			<use x="945" width="15" height="40" class="e663color" xlink:href="#e0"/>
+		</g>
+		<g id="order" transform="translate(-15 -290)">
+ 				<text x="15"  class="textSmallFont">坤</text>
+				<text x="30"  class="textSmallFont">剥</text>
+				<text x="45"  class="textSmallFont">比</text>
+				<text x="60"  class="textSmallFont">观</text>
+				<text x="75"  class="textSmallFont">豫</text>
+				<text x="90"  class="textSmallFont">晋</text>
+				<text x="105"  class="textSmallFont">萃</text>
+				<text x="120"  class="textSmallFont">否</text>
+				<text x="135"  class="textSmallFont">谦</text>
+				<text x="150"  class="textSmallFont">艮</text>
+				<text x="165"  class="textSmallFont">蹇</text>
+				<text x="180"  class="textSmallFont">渐</text>
+				<text x="195" y="-15" class="textSmallFont">小</text>
+				<text x="195"  class="textSmallFont">过</text>
+      				
+			<text x="210"  class="textSmallFont" >旅</text>
+			<text x="225"  class="textSmallFont" >咸</text>
+			<text x="240"  class="textSmallFont" >遯</text>
+			<text x="255"  class="textSmallFont" >师</text>
+			<text x="270"  class="textSmallFont" >蒙</text>
+			<text x="285"  class="textSmallFont" >坎</text>
+			<text x="300"  class="textSmallFont" >涣</text>
+			<text x="315"  class="textSmallFont" >解</text>
+			<text x="330" y="-15" class="textSmallFont" >未</text>
+			<text x="330"  class="textSmallFont" >济</text>
+
+			<text x="345"  class="textSmallFont" >困</text>
+			<text x="360"  class="textSmallFont" >讼</text>
+			<text x="375"  class="textSmallFont" >升</text>
+			<text x="390"  class="textSmallFont" >蛊</text>
+			<text x="405"  class="textSmallFont" >井</text>
+			<text x="420"  class="textSmallFont" >巽</text>
+			<text x="435"  class="textSmallFont" >恒</text>
+			<text x="450"  class="textSmallFont" >鼎</text>
+			<text x="465" y="-15" class="textSmallFont" >大</text>
+			<text x="465"  class="textSmallFont" >过</text>
+
+			<text x="480"  class="textSmallFont" >姤</text>
+			<text x="495"  class="textSmallFont" >复</text>
+			<text x="510"  class="textSmallFont" >颐</text>
+			<text x="525"  class="textSmallFont" >屯</text>
+			<text x="540"  class="textSmallFont" >益</text>
+			<text x="555"  class="textSmallFont" >震</text>
+			<text x="570" y="-15" class="textSmallFont" >噬</text>
+			<text x="570"  class="textSmallFont" >嗑</text>
+
+			<text x="585"  class="textSmallFont" >随</text>
+			<text x="600" y="-15" class="textSmallFont" >无</text>
+			<text x="600"  class="textSmallFont" >妄</text>
+
+			<text x="615" y="-15" class="textSmallFont" >明</text>
+			<text x="615"  class="textSmallFont" >夷</text>
+
+			<text x="630"  class="textSmallFont" >贲</text>
+			<text x="645" y="-15" class="textSmallFont" >既</text>
+			<text x="645"  class="textSmallFont" >济</text>
+
+			<text x="660" y="-15" class="textSmallFont" >家</text>
+			<text x="660"  class="textSmallFont" >人</text>
+
+			<text x="675"  class="textSmallFont" >丰</text>
+			<text x="690"  class="textSmallFont" >离</text>
+			<text x="705"  class="textSmallFont" >革</text>
+			<text x="720" y="-15" class="textSmallFont" >同</text>
+			<text x="720"  class="textSmallFont" >人</text>
+
+			<text x="735"  class="textSmallFont" >临</text>
+			<text x="750"  class="textSmallFont" >损</text>
+			<text x="765"  class="textSmallFont" >节</text>
+			<text x="780" y="-15" class="textSmallFont" >中</text>
+			<text x="780"  class="textSmallFont" >孚</text>
+
+			<text x="795" y="-15" class="textSmallFont" >归</text>
+			<text x="795"  class="textSmallFont" >妹</text>
+
+			<text x="810"  class="textSmallFont" >睽</text>
+			<text x="825"  class="textSmallFont" >兑</text>
+			<text x="840"  class="textSmallFont" >履</text>
+			<text x="855"  class="textSmallFont" >泰</text>
+			<text x="870" y="-15" class="textSmallFont" >大</text>
+			<text x="870"  class="textSmallFont" >畜</text>
+			<text x="885"  class="textSmallFont" >需</text>
+			<text x="900" y="-15" class="textSmallFont" >小</text>
+			<text x="900"  class="textSmallFont" >畜</text>
+
+			<text x="915"  y="-15" class="textSmallFont" >大</text>
+			<text x="915"   class="textSmallFont" >壮</text>
+			<text x="930" y="-15" class="textSmallFont" >大</text>
+			<text x="930"  class="textSmallFont" >有</text>
+			<text x="945"  class="textSmallFont" >夬</text>
+			<text x="960"  class="textSmallFont" >乾</text>
+
+
+
+				
+			
+				
+				
+				
+				
+				
+			
+		</g>
+	</g>
+</svg>
